@@ -1,0 +1,66 @@
+.lc-no-overflow {
+  overflow: hidden;
+}
+
+.lc-text-small {
+  font-size: 10px;
+  line-height: 11px;
+}
+
+.uk-offcanvas-bar {
+  background-color: #111111;
+  box-shadow: none;
+  border: none;
+  padding: 12% 40px 10%;
+  width: 150px;
+}
+
+.uk-offcanvas-bar .lc-link {
+  color: #666666;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.uk-offcanvas-bar .lc-link:hover,
+.uk-offcanvas-bar .lc-link:focus {
+  color: #eeeeee;
+}
+
+.uk-offcanvas-bar .lc-link-active {
+  color: #eeeeee;
+}
+
+.uk-offcanvas-bar .lc-link-attention {
+  color: #89a826;
+}
+
+.uk-offcanvas-bar .lc-contact {
+  position: absolute;
+  bottom: 50px;
+  right: 30px;
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 15px;
+  color: #444444;
+}
+
+.uk-offcanvas-bar .lc-contact img {
+  opacity: 0.25;
+}
+
+.uk-offcanvas-bar .lc-contact img:hover {
+  opacity: 0.35;
+}
+
+.uk-offcanvas-bar .lc-contact a {
+  color: #444444;
+  text-decoration: none;
+}
+
+.uk-offcanvas-bar .lc-contact a:hover {
+  color: #555555;
+}
+

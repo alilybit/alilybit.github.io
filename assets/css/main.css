@@ -1,38 +1,6 @@
-@media (max-width: 640px) {
-  div#content {
-    font-size: 1.1rem;
-    line-height: 1.3rem;
-  }
-}
-
-@media (min-width: 640px) {
-  div#content {
-    font-size: 1.1rem;
-    line-height: 1.3rem;
-  }
-}
-
-@media (min-width:960px) {
-  div#content {
-    font-size: 1.1rem;
-    line-height: 1.4rem;
-  }
-}
-
-@media (min-width:1100px) {
-  div#content {
-    font-size: 1.2rem;
-    line-height: 1.5rem;
-  }
-}
-
-.lc-no-overflow {
-  overflow: hidden;
-}
-
 body {
-  background: #ffffff;
-  height: 1500px;
+  background: #89a826;
+  color: #222222;
   font-family: 'Lato', Helvetica Neue, Helvetica, serif;
 }
 
@@ -51,14 +19,18 @@ section.lc-section-1 {
   }
 }
 
+section.lc-section-1 .lc-logo-caption {
+  color: #5F743C;
+}
+
 section.lc-section-1 .lc-title {
   font-family: 'Merriweather';
   font-weight: bold;
   font-size: 40px;
   line-height: 45px;
   color: #ffffff;
-  margin: 100px 0 7% 0;
-  text-shadow: rgb(95, 116, 30) 2px 2px 0px;
+  margin: 75px 0 8% 0;
+  text-shadow: #5F743C 2px 2px 0px;
   padding-right: 10px;
 }
 
@@ -88,6 +60,7 @@ section.lc-section-1 .uk-button {
   border-radius: 3px;
   text-shadow: none;
   color: #ffffff;
+  width: 150px;
 }
 
 section.lc-section-1 .uk-button:hover {

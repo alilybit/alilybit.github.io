@@ -4,39 +4,47 @@ body {
   font-family: 'Lato', Helvetica Neue, Helvetica, serif;
 }
 
-.lc-section {
-  padding: 7% 0;
-}
-
-section.lc-section-1 {
-  background: #89a826;
+.lc-landing {
+  padding: 8% 0;
 }
 
 @media (min-width: 768px) {
-  section.lc-section-1 {
-    height: 450px;
-    background: #89a826 url("../img/bg.png") 50% 20% no-repeat;
+  body {
+    background: #89a826 url("../img/bg.png") 50% 0 no-repeat;
   }
 }
 
-section.lc-section-1 .lc-logo-caption {
+@media (min-height: 700px) {
+  body {
+    background: #89a826 url("../img/bg.png") 50% -100% no-repeat;
+  }
+}
+
+div.lc-landing .lc-logo-caption {
   color: #5F743C;
 }
 
-section.lc-section-1 .lc-title {
+div.lc-landing .lc-title {
   font-family: 'Merriweather';
   font-weight: bold;
   font-size: 40px;
   line-height: 45px;
   color: #ffffff;
-  margin: 75px 0 8% 0;
+  margin: 12% 0 5% 0;
   text-shadow: #5F743C 2px 2px 0px;
   padding-right: 10px;
 }
 
+/* Large screens */
+@media (min-height:700px) {
+  div.lc-landing {
+    padding-top: 12%;
+  }
+}
+
 /* Tablet */
 @media (max-width:960px) {
-  section.lc-section-1 .lc-title {
+  div.lc-landing .lc-title {
     font-size: 35px;
     line-height: 40px;
     margin-top: 75px;
@@ -46,7 +54,7 @@ section.lc-section-1 .lc-title {
 
 /* Phone */
 @media (max-width:640px) {
-  section.lc-section-1 .lc-title {
+  div.lc-landing .lc-title {
     font-size: 25px;
     line-height: 30px;
     margin: 40px 0 10%;
@@ -54,7 +62,7 @@ section.lc-section-1 .lc-title {
   }
 }
 
-section.lc-section-1 .uk-button {
+div.lc-landing .uk-button {
   background: none;
   border: 1px solid #ffffff;
   border-radius: 3px;
@@ -63,7 +71,7 @@ section.lc-section-1 .uk-button {
   width: 150px;
 }
 
-section.lc-section-1 .uk-button:hover {
+div.lc-landing .uk-button:hover {
   background: #ffffff;
   color: #89a826;
 }

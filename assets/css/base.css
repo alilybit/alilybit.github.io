@@ -8,8 +8,19 @@ body {
   color: #111111;
 }
 
+.uk-button {
+  text-shadow: none;
+}
+
 .lc-no-overflow {
   overflow: hidden;
+}
+
+.lc-no-hyphen {
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
 }
 
 .lc-text-small {

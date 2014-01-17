@@ -4,19 +4,50 @@ body {
   height: 2000px;
 }
 
+.lc-section-blog {
+  height: 500px;
+  color: #ffffff;
+}
+
+.lc-section-blog .lc-blog-title {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.lc-section-blog .lc-blog-caption {
+  font-size: 40px;
+  line-height: 1em;
+  font-weight: 700;
+}
+
 .lc-section-1 {
   height: auto;
   background: #89a826;
+}
+
+.lc-section-1 .lc-section-padding {
+  padding: 8% 0 12%;
+}
+
+.lc-blog-button {
+  border-radius: 0px;
+  background: #89a826;
+  border: 2px solid #89a826;
+  color: #ffffff;
+}
+
+.lc-blog-button i {
+  margin-left: 7px;
+}
+
+.lc-blog-button:hover {
+  border-color: #ffffff;
 }
 
 @media (min-width: 768px) {
   .lc-section-1 {
     background: #89a826 url("../img/bg.png") 50% 0 no-repeat;
   }
-}
-
-.lc-section-1 .lc-section-padding {
-  padding: 8% 0;
 }
 
 div.lc-section-1 .lc-logo-caption {
@@ -32,10 +63,6 @@ div.lc-section-1 .lc-title {
   margin: 12% 0 5% 0;
   text-shadow: #5F743C 2px 2px 0px;
   padding-right: 10px;
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
-  hyphens: none;
 }
 
 /* Tablet */
@@ -70,4 +97,12 @@ div.lc-section-1 .uk-button {
 div.lc-section-1 .uk-button:hover {
   background: #ffffff;
   color: #89a826;
+}
+
+.lc-section-2 {
+  background: url("../img/scott1.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }

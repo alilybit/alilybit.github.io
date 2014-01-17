@@ -1,30 +1,29 @@
 body {
-  background: #89a826;
   color: #222222;
   font-family: 'Lato', Helvetica Neue, Helvetica, serif;
+  height: 2000px;
 }
 
-.lc-landing {
-  padding: 8% 0;
+.lc-section-1 {
+  height: auto;
+  background: #89a826;
 }
 
 @media (min-width: 768px) {
-  body {
+  .lc-section-1 {
     background: #89a826 url("../img/bg.png") 50% 0 no-repeat;
   }
 }
 
-@media (min-height: 700px) {
-  body {
-    background: #89a826 url("../img/bg.png") 50% -100% no-repeat;
-  }
+.lc-section-1 .lc-section-padding {
+  padding: 8% 0;
 }
 
-div.lc-landing .lc-logo-caption {
+div.lc-section-1 .lc-logo-caption {
   color: #5F743C;
 }
 
-div.lc-landing .lc-title {
+div.lc-section-1 .lc-title {
   font-family: 'Merriweather';
   font-weight: bold;
   font-size: 40px;
@@ -33,18 +32,15 @@ div.lc-landing .lc-title {
   margin: 12% 0 5% 0;
   text-shadow: #5F743C 2px 2px 0px;
   padding-right: 10px;
-}
-
-/* Large screens */
-@media (min-height:700px) {
-  div.lc-landing {
-    padding-top: 12%;
-  }
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
 }
 
 /* Tablet */
 @media (max-width:960px) {
-  div.lc-landing .lc-title {
+  div.lc-section-1 .lc-title {
     font-size: 35px;
     line-height: 40px;
     margin-top: 75px;
@@ -53,16 +49,16 @@ div.lc-landing .lc-title {
 }
 
 /* Phone */
-@media (max-width:640px) {
-  div.lc-landing .lc-title {
-    font-size: 25px;
+@media (max-width:768px) {
+  div.lc-section-1 .lc-title {
+    font-size: 27px;
     line-height: 30px;
     margin: 40px 0 10%;
     padding-right: 0px;
   }
 }
 
-div.lc-landing .uk-button {
+div.lc-section-1 .uk-button {
   background: none;
   border: 1px solid #ffffff;
   border-radius: 3px;
@@ -71,7 +67,7 @@ div.lc-landing .uk-button {
   width: 150px;
 }
 
-div.lc-landing .uk-button:hover {
+div.lc-section-1 .uk-button:hover {
   background: #ffffff;
   color: #89a826;
 }

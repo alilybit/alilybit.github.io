@@ -14,6 +14,7 @@
     <script type="text/javascript" src="{{ site.url }}/assets/js/uikit.js"></script>
   </head>
   <body>
+    <div class="lc-bar"></div>
     <div id="offcanvas" class="uk-offcanvas uk-hidden-small">
       <div class="uk-offcanvas-bar uk-text-right">
         <a class="lc-link lc-link-active" href="">Home</a><br>
@@ -35,6 +36,8 @@
         </div>
       </div>
     </div>
-    {{ content }}
+    <div class="uk-width-4-5">
+      {{ content }}
+    </div>
   </body>
 </html>

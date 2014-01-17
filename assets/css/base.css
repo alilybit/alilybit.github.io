@@ -17,10 +17,9 @@ body {
   line-height: 11px;
 }
 
-.lc-menu {
-  width: 60px;
-  top: 0px;
-  bottom: 0px;
+.lc-bar {
+  width: 100px;
+  height: 100%;
   background: #111111;
 }
 

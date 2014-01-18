@@ -29,9 +29,12 @@ body {
 }
 
 .lc-bar {
-  width: 100px;
+  position: fixed;
+  width: 50px;
   height: 100%;
   background: #111111;
+  padding: 20% 10px;
+  color: #666666;
 }
 
 .uk-offcanvas-bar {

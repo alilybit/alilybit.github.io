@@ -100,7 +100,15 @@ div.lc-section-1 .uk-button:hover {
 }
 
 .lc-section-2 {
-  background: url("../img/scott1.jpg") no-repeat center center; 
+  background: url("../img/hire1.jpg") no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.lc-section-3 {
+  background: url("../img/scott1.jpg") no-repeat center 45%; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

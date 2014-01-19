@@ -18,39 +18,38 @@ title: Life Changing Labs
     <script type="text/javascript" src="{{ site.url }}/assets/js/uikit.js"></script>
   </head>
   <body>
-    
-    <div id="offcanvas" class="uk-offcanvas uk-hidden-small">
-      <div class="uk-offcanvas-bar uk-text-right">
-        <a class="lc-link lc-link-active" href="">Home</a><br>
-        <a class="lc-link" href="{{ site.url }}/about">About</a><br>
-        <a class="lc-link" href="{{ site.url }}/companies">Companies</a><br>
-        <a class="lc-link" href="{{ site.url }}/network">Network</a><br>
-        <a class="lc-link" href="{{ site.url }}/blog">Blog</a><br><br>
-        <a class="lc-link lc-link-attention" href="{{ site.url }}/jobs">Careers</a>
-        <div class="lc-contact">
-          <a href="{{ site.url }}"><img class="uk-width-7-10" src="{{ site.url }}/assets/img/logo-white-200.png" title="Life Changing Labs" alt="Life Changing Labs"></a><br><br>
-          <a href="">
-            Address 1<br>
-            Address 2<br>
-            Ithaca, New York 14853
-          </a><br><br>
-          (123) 456-7890<br>
-          <a href="mailto:peter@lifechanginglabs.com?Subject=Business%20Inquiry%20For%20Life%20Changing%20Labs">email@lifechanginglabs</a><br><br>
-          <div class="lc-text-small">&#169; 2014 All rights reserved.<br>Life Changing Labs</div>
-        </div>
-      </div>
+    {% include offcanvas.html %}
+    <div class="lc-section-1 uk-width-1-1 uk-text-center">
+      <div class="lc-graphic uk-width-1-1" data-uk-scrollspy="{cls:'uk-animation-fade'}"></div>
     </div>
-    <div class="uk-width-1-1 lc-section-1">
-      <div class="uk-container uk-container-center uk-text-center uk-width-9-10 lc-no-overflow lc-section-padding">
-        <div class="uk-container uk-width-1-1 uk-width-medium-2-3 uk-width-large-2-3 uk-text-left">
-          <img class="lc-brand" src="{{ site.url }}/assets/img/logo-white.png" title="Life Changing Labs" alt="Life Changing Labs" width="215px">
-          <br><div class="lc-text-small lc-logo-caption">powered by Lightspeed Venture Partners</div>
-          <div class="lc-title lc-no-hyphen">We are a collective of top engineers, designers, and business students working together to launch life changing startups.</div>
-          <button class="uk-button uk-button-large" data-uk-offcanvas="{target:'#offcanvas'}">Learn more</button>
+    <div class="lc-section-2 uk-width-1-1 lc-no-overflow">
+      <div class="uk-grid uk-width-4-5 uk-push-1-10">
+        <div class="lc-blog-1 uk-width-2-5 uk-vertical-align" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', delay:1000}">
+          <div class="uk-vertical-align-middle uk-text-center">
+            <div class="lc-blog-title">Scott Belsky</div><br>
+            <div class="lc-blog-description">Founder of Behance / Pinterest + Uber Investor</div>
+          </div>
         </div>
+
+        <div class="lc-blog-2 uk-width-3-10" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', delay:1100}">
+        </div>
+        <div class="lc-blog-3 lc-blog-text uk-width-3-10" data-uk-scrollspy="{cls:'uk-animation-slide-bottom', delay:1300}">
+          <div class="lc-blog-title">2014<br>Summer<br>Intern-<br>ship</div><br>
+          <div class="lc-blog-description">Currently accepting applications. Apply now.</div>
+        </div>
+        <div class="lc-blog-4 uk-width-3-10"></div>
+        <div class="lc-blog-5"></div>
+        <div class="lc-blog-6 uk-width-1-5"></div>
+        <div class="lc-blog-7 uk-width-3-5"></div>
+        <div class="lc-blog-8 uk-width-1-5"></div>
+        <div class="lc-blog-9 uk-width-1-5"></div>
+        <div class="lc-blog-10 uk-width-1-2"></div>
+        <div class="lc-blog-11 lc-blog-text uk-width-3-10">
+          <div class="lc-blog-title">Summer 2013</div>
+        </div>
+        <div class="lc-blog-12 uk-width-1-5"></div>
+        <div class="lc-blog-13 uk-width-3-10"></div>
       </div>
-    </div>
-    <div class="">
     </div>
   </body>
 </html>

@@ -30,11 +30,20 @@ body {
 
 .lc-bar {
   position: fixed;
-  width: 50px;
+  width: 85px;
+  background-color: #1c1c1c;
   height: 100%;
-  background: #111111;
-  padding: 20% 10px;
-  color: #666666;
+  top: 0px;
+  z-index: 99999;
+  padding: 4% 0;
+}
+
+.lc-bar a {
+  color: #ffffff;
+}
+
+.lc-bar a:hover {
+  color: #dddddd;
 }
 
 .uk-offcanvas-bar {

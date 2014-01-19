@@ -4,7 +4,7 @@ body {
   height: 2000px;
 }
 
-.lc-section-blog {
+/*.lc-section-blog {
   height: 500px;
   color: #ffffff;
 }
@@ -20,15 +20,6 @@ body {
   font-weight: 700;
 }
 
-.lc-section-1 {
-  height: auto;
-  background: #89a826;
-}
-
-.lc-section-1 .lc-section-padding {
-  padding: 8% 0 12%;
-}
-
 .lc-blog-button {
   border-radius: 0px;
   background: #89a826;
@@ -42,6 +33,15 @@ body {
 
 .lc-blog-button:hover {
   border-color: #ffffff;
+}*/
+
+.lc-section-1 {
+  height: auto;
+  background: #89a826;
+}
+
+.lc-section-1 .lc-section-padding {
+  padding: 8% 0 12%;
 }
 
 @media (min-width: 768px) {

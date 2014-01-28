@@ -10,12 +10,29 @@ title: Life Changing Labs
     <link rel="shortcut icon" type="image/png" href="{{ site.url }}/assets/img/favicon.png">
     <link rel="image_src" type="image/png" href="{{ site.url }}/assets/img/favicon.png">
     <title>{{ page.title }}</title>
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700|Merriweather:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900|Lemon' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ site.url }}/assets/css/uikit.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/base.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/landing.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="{{ site.url }}/assets/js/uikit.js"></script>
+    <script type="text/javascript">
+      setInterval(changeSubtitle,3500);
+      function changeSubtitle(){
+        var current = $('#philosophy').html();
+        var r = Math.floor(Math.random()* $('#philosophy-stash li').length);
+        console.log(r);
+        var next = $($('#philosophy-stash li')[r]).html();
+        console.log(next);
+        if(next == current){
+          next = "Intelligence"
+        }
+        $('#philosophy').animate({opacity:0},500,function(){
+          $(this).html(next);
+          $(this).animate({opacity:1},200);
+        });
+      }
+    </script>
   </head>
   <body>
     {% include hire.html %}
@@ -28,7 +45,7 @@ title: Life Changing Labs
         <a class="lc-link" href="{{ site.url }}/blog">Blog</a><br><br>
         <a class="lc-link lc-link-attention" href="{{ site.url }}/jobs">Careers</a>
         <div class="lc-contact">
-          <a href="{{ site.url }}"><img class="uk-width-7-10" src="{{ site.url }}/assets/img/logo-white-200.png" title="Life Changing Labs" alt="Life Changing Labs"></a><br><br>
+          <a href="{{ site.url }}"><img src="{{ site.url }}/assets/img/logos/solo-logo-white-35.png" title="Life Changing Labs" alt="Life Changing Labs"></a><br>
           <a href="">
             Address 1<br>
             Address 2<br>
@@ -36,20 +53,36 @@ title: Life Changing Labs
           </a><br><br>
           (123) 456-7890<br>
           <a href="mailto:peter@lifechanginglabs.com?Subject=Business%20Inquiry%20For%20Life%20Changing%20Labs">email@lifechanginglabs</a><br><br>
-          <div class="lc-text-small">&#169; 2014 All rights reserved.<br>Life Changing Labs</div>
+          <div class="lc-text-small">&#169; 2014 All rights reserved.<br>Life Changing Labs<br>powered by Lightspeed Venture Partners</div>
         </div>
       </div>
     </div>
     <div class="uk-width-1-1 lc-section-1">
       <div class="uk-container uk-container-center uk-text-center uk-width-9-10 lc-no-overflow lc-section-padding">
-        <div class="uk-container uk-width-1-1 uk-width-medium-2-3 uk-width-large-2-3 uk-text-left">
-          <img class="lc-brand" src="{{ site.url }}/assets/img/logo-white.png" title="Life Changing Labs" alt="Life Changing Labs" width="215px">
-          <br><div class="lc-text-small lc-logo-caption">powered by Lightspeed Venture Partners</div>
-          <div class="lc-title lc-no-hyphen">We are a collective of top engineers, designers, and business students working together to launch life changing startups.</div>
-          <button class="uk-button uk-button-large uk-hidden-small" data-uk-offcanvas="{target:'#offcanvas'}">Learn more</button>
+        <div class="uk-container uk-width-1-1 uk-width-medium-2-3 uk-width-large-3-5 uk-text-left">
+          <!-- <div class="lc-text-small lc-logo-caption">powered by Lightspeed Venture Partners</div> -->
+          <a href="{{ site.url }}"><img class="lc-brand" src="{{ site.url }}/assets/img/logos/logo-white-250.png" title="Life Changing Labs" alt="Life Changing Labs"></a>
+          <div class="lc-title lc-no-hyphen">
+            <span id="philosophy">Creativity</span><br>Unleashed.
+          </div>
+          <ul id="philosophy-stash" style="display:none;">
+            <li>Curiosity</li>
+            <li>Enthusiasm</li>
+            <li>Ideas</li>
+          </ul>
+          <button class="uk-button uk-button-large uk-hidden-small uk-display-inline" data-uk-offcanvas="{target:'#offcanvas'}">Learn more</button>
+          <div class="uk-display-inline"><a class="lc-link" href="{{ site.url }}/blog">Read our blog<i class="uk-icon-hand-right"></i></a></div>
         </div>
       </div>
     </div>
+    <div class="lc-section-2 uk-vertical-align uk-text-center">
+      <div class="uk-container-center uk-width-4-5 lc-section-padding uk-text-center uk-vertical-align-middle">
+        <h1 class="lc-lemon">Hello.</h1>
+        <h2>We are a collective of top engineers, designers, and business students working together to launch life changing startups.</h2>
+      </div>
+    </div>
+    <!-- We are a collective of top engineers, designers, and business students working together to launch life changing startups. -->
+
     <!-- <div class="uk-width-1-1 uk-text-center lc-section-blog lc-section-2 uk-vertical-align">
       <div class="uk-container-center uk-width-4-5 lc-no-overflow lc-section-padding uk-text-left uk-vertical-align-middle">
         <div class="lc-blog-date uk-text-large">January 2013</div><br><br><br>

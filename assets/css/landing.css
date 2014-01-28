@@ -4,50 +4,33 @@ body {
   height: 2000px;
 }
 
-.lc-section-blog {
-  height: 500px;
-  color: #ffffff;
+.lc-lemon {
+  font-family: 'Lemon';
 }
 
-.lc-section-blog .lc-blog-title {
-  font-size: 50px;
-  font-weight: 300;
-}
-
-.lc-section-blog .lc-blog-caption {
-  font-size: 40px;
-  line-height: 1em;
-  font-weight: 700;
+.lc-section-padding {
+  padding: 7% 0;
 }
 
 .lc-section-1 {
   height: auto;
-  background: #89a826;
-}
-
-.lc-section-1 .lc-section-padding {
-  padding: 8% 0;
-}
-
-.lc-blog-button {
-  border-radius: 0px;
-  background: #89a826;
-  border: 2px solid #89a826;
+  background: #89A826;
   color: #ffffff;
-}
-
-.lc-blog-button i {
-  margin-left: 7px;
-}
-
-.lc-blog-button:hover {
-  border-color: #ffffff;
+  text-shadow: #5F743C 2px 2px 0px;
 }
 
 @media (min-width: 768px) {
   .lc-section-1 {
-    background: #89a826 url("../img/bg.png") 50% 0 no-repeat;
+    background: #89A826 url("../img/bg.png") center 0 no-repeat;
   }
+}
+
+div.lc-section-1 .lc-brand {
+  opacity: 0.9;
+}
+
+div.lc-section-1 .lc-brand:hover {
+  opacity: 1;
 }
 
 div.lc-section-1 .lc-logo-caption {
@@ -55,22 +38,19 @@ div.lc-section-1 .lc-logo-caption {
 }
 
 div.lc-section-1 .lc-title {
-  font-family: 'Merriweather';
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 45px;
+  font-family: 'Lato';
+  font-weight: 900;
+  font-size: 75px;
+  line-height: 1em;
   color: #ffffff;
-  margin: 12% 0 5% 0;
-  text-shadow: #5F743C 2px 2px 0px;
-  padding-right: 10px;
+  margin: 13% 0 10% 0;
 }
 
 /* Tablet */
 @media (max-width:960px) {
   div.lc-section-1 .lc-title {
-    font-size: 35px;
-    line-height: 40px;
-    margin-top: 75px;
+    font-size: 60px;
+    margin-top: 50px;
     padding-right: 0px;
   }
 }
@@ -78,8 +58,7 @@ div.lc-section-1 .lc-title {
 /* Phone */
 @media (max-width:768px) {
   div.lc-section-1 .lc-title {
-    font-size: 27px;
-    line-height: 30px;
+    font-size: 55px;
     margin: 40px 0 10%;
     padding-right: 0px;
   }
@@ -92,25 +71,29 @@ div.lc-section-1 .uk-button {
   text-shadow: none;
   color: #ffffff;
   width: 150px;
+  margin-right: 20px;
 }
 
 div.lc-section-1 .uk-button:hover {
   background: #ffffff;
-  color: #89a826;
+  border: 1px solid #ffffff;
+  color: #89A826;
 }
 
-.lc-section-2 {
-  background: url("../img/hire1.jpg") no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+div.lc-section-1 .lc-link {
+  color: #ffffff;
+  font-size: 15px;
 }
 
-.lc-section-3 {
-  background: url("../img/scott1.jpg") no-repeat center 45%; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+div.lc-section-1 .lc-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+div.lc-section-1 i {
+  margin-left: 8px;
+}
+
+div.lc-section-1 .lc-link:hover i {
+  margin-left: 11px;
 }

@@ -1,99 +1,61 @@
 body {
-  color: #222222;
-  font-family: 'Lato', Helvetica Neue, Helvetica, serif;
-  height: 2000px;
+  color: #ffffff;
 }
 
-.lc-lemon {
-  font-family: 'Lemon';
+.lc-bg-1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: #89a826;
+  /*background: url(/assets/img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+  z-index: -2;
 }
 
-.lc-section-padding {
-  padding: 7% 0;
+.lc-body-border {
+  position: fixed;
+  border: 15px solid #ffffff;
+  z-index: -1;
+}
+
+.lc-banner-logo {
+  position: fixed;
+  width: 225px;
+  height: 65px;
+  background: #3f3f3f;
+  /*box-shadow: #555555 1px 1px 100px;*/
 }
 
 .lc-section-1 {
-  height: auto;
-  background: #89A826;
-  color: #ffffff;
-  text-shadow: #5F743C 2px 2px 0px;
+  height: 100%;
 }
 
-@media (min-width: 768px) {
-  .lc-section-1 {
-    background: #89A826 url("../img/bg.png") center 0 no-repeat;
-  }
+.lc-section-1 .lc-title {
+  font-size: 2.7em;
+  line-height: 1.1em;
+  /*text-shadow: #555555 1px 1px 40px;*/
+  font-weight: 700;
 }
 
-div.lc-section-1 .lc-brand {
-  opacity: 0.9;
-}
-
-div.lc-section-1 .lc-brand:hover {
-  opacity: 1;
-}
-
-div.lc-section-1 .lc-logo-caption {
-  color: #5F743C;
-}
-
-div.lc-section-1 .lc-title {
-  font-family: 'Lato';
-  font-weight: 900;
-  font-size: 75px;
-  line-height: 1em;
-  color: #ffffff;
-  margin: 13% 0 10% 0;
-}
-
-/* Tablet */
-@media (max-width:960px) {
-  div.lc-section-1 .lc-title {
-    font-size: 60px;
-    margin-top: 50px;
-    padding-right: 0px;
-  }
-}
-
-/* Phone */
-@media (max-width:768px) {
-  div.lc-section-1 .lc-title {
-    font-size: 55px;
-    margin: 40px 0 10%;
-    padding-right: 0px;
-  }
-}
-
-div.lc-section-1 .uk-button {
+.lc-section-1 .lc-title-btn {
   background: none;
   border: 1px solid #ffffff;
-  border-radius: 3px;
-  text-shadow: none;
+  border-radius: 0;
+  margin-top: 35px;
+  font-family: 'Lato';
+  font-weight: 900;
   color: #ffffff;
-  width: 150px;
-  margin-right: 20px;
+  font-size: 12px;
 }
 
-div.lc-section-1 .uk-button:hover {
+.lc-section-1 .lc-title-btn:hover {
   background: #ffffff;
-  border: 1px solid #ffffff;
-  color: #89A826;
+  color: #89a826;
 }
 
-div.lc-section-1 .lc-link {
-  color: #ffffff;
-  font-size: 15px;
-}
-
-div.lc-section-1 .lc-link:hover {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-div.lc-section-1 i {
-  margin-left: 8px;
-}
-
-div.lc-section-1 .lc-link:hover i {
-  margin-left: 11px;
+.lc-section-2 {
+  height: 100%;
 }

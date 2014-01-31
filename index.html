@@ -7,37 +7,18 @@ title: Life Changing Labs
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <link rel="shortcut icon" type="image/png" href="{{ site.url }}/assets/img/favicon.png">
     <link rel="image_src" type="image/png" href="{{ site.url }}/assets/img/favicon.png">
     <title>{{ page.title }}</title>
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900|Lemon' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ site.url }}/assets/css/uikit.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/base.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/landing.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="{{ site.url }}/assets/js/uikit.js"></script>
-    <script type="text/javascript">
-      setInterval(changeSubtitle,3500);
-      function changeSubtitle(){
-        var current = $('#philosophy').html();
-        var r = Math.floor(Math.random()* $('#philosophy-stash li').length);
-        console.log(r);
-        var next = $($('#philosophy-stash li')[r]).html();
-        console.log(next);
-        if(next == current){
-          next = "Intelligence"
-        }
-        $('#philosophy').animate({opacity:0},500,function(){
-          $(this).html(next);
-          $(this).animate({opacity:1},200);
-        });
-      }
-    </script>
   </head>
   <body>
-    {% include hire.html %}
     <div id="offcanvas" class="uk-offcanvas uk-hidden-small">
-      <div class="uk-offcanvas-bar uk-text-right">
+      <div class="uk-offcanvas-bar uk-offcanvas-bar-flip uk-text-right">
         <a class="lc-link lc-link-active" href="">Home</a><br>
         <a class="lc-link" href="{{ site.url }}/about">About</a><br>
         <a class="lc-link" href="{{ site.url }}/companies">Companies</a><br>
@@ -57,47 +38,21 @@ title: Life Changing Labs
         </div>
       </div>
     </div>
-    <div class="uk-width-1-1 lc-section-1">
-      <div class="uk-container uk-container-center uk-text-center uk-width-9-10 lc-no-overflow lc-section-padding">
-        <div class="uk-container uk-width-1-1 uk-width-medium-2-3 uk-width-large-3-5 uk-text-left">
-          <!-- <div class="lc-text-small lc-logo-caption">powered by Lightspeed Venture Partners</div> -->
-          <a href="{{ site.url }}"><img class="lc-brand" src="{{ site.url }}/assets/img/logos/logo-white-250.png" title="Life Changing Labs" alt="Life Changing Labs"></a>
-          <div class="lc-title lc-no-hyphen">
-            <span id="philosophy">Creativity</span><br>Unleashed.
-          </div>
-          <ul id="philosophy-stash" style="display:none;">
-            <li>Curiosity</li>
-            <li>Enthusiasm</li>
-            <li>Ideas</li>
-          </ul>
-          <button class="uk-button uk-button-large uk-hidden-small uk-display-inline" data-uk-offcanvas="{target:'#offcanvas'}">Learn more</button>
-          <div class="uk-display-inline"><a class="lc-link" href="{{ site.url }}/blog">Read our blog<i class="uk-icon-hand-right"></i></a></div>
-        </div>
+    <div class="lc-body-border uk-width-1-1 uk-height-1-1"></div>
+    <div class="lc-bg-1 uk-width-1-1 uk-height-1-1"></div>
+    <div class="uk-width-4-5 uk-container-center">
+      <div class="lc-banner-logo uk-text-center uk-vertical-align">
+        <img class="uk-vertical-align-middle" src="/assets/img/logos/logo-white-250.png" width="200px">
       </div>
     </div>
-    <div class="lc-section-2 uk-vertical-align uk-text-center">
-      <div class="uk-container-center uk-width-4-5 lc-section-padding uk-text-center uk-vertical-align-middle">
-        <h1 class="lc-lemon">Hello.</h1>
-        <h2>We are a collective of top engineers, designers, and business students working together to launch life changing startups.</h2>
+    <div class="lc-section-1 uk-width-4-5 uk-container-center uk-vertical-align">
+      <div class="uk-width-4-5 uk-vertical-align-middle uk-text-left lc-no-hyphen">
+        <div class="lc-title">We are a collective of top <span class="lc-text-bolder">engineers, designers, and business</span> students working together to launch life changing startups.</div>
+        <a class="lc-title-btn lc-text-smallcaps uk-button" href="#offcanvas" data-uk-offcanvas>learn more</a>
       </div>
     </div>
-    <!-- We are a collective of top engineers, designers, and business students working together to launch life changing startups. -->
+    <div class="lc-section-2 uk-width-4-5 uk-container-center uk-text-center">
 
-    <!-- <div class="uk-width-1-1 uk-text-center lc-section-blog lc-section-2 uk-vertical-align">
-      <div class="uk-container-center uk-width-4-5 lc-no-overflow lc-section-padding uk-text-left uk-vertical-align-middle">
-        <div class="lc-blog-date uk-text-large">January 2013</div><br><br><br>
-        <div class="lc-blog-title">Summer 2014 Internships</div><br>
-        <div class="lc-blog-caption lc-no-hyphen">Now accepting applications</div><br><br>
-        <a href="" class="uk-button lc-blog-button">Apply now<i class="uk-icon-caret-right"></i></a>
-      </div>
     </div>
-    <div class="uk-width-1-1 uk-text-center lc-section-blog lc-section-3 uk-vertical-align">
-      <div class="uk-container-center uk-width-4-5 lc-no-overflow lc-section-padding uk-text-right uk-vertical-align-middle">
-        <div class="lc-blog-date uk-text-large">December 2, 2013</div><br><br><br>
-        <div class="lc-blog-title">Scott Belsky</div><br>
-        <div class="lc-blog-caption lc-no-hyphen">Behance founder / Pinterest + Uber investor</div><br><br>
-        <a href="" class="uk-button lc-blog-button">Read about the event<i class="uk-icon-caret-right"></i></a>
-      </div>
-    </div> -->
   </body>
 </html>

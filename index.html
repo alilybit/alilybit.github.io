@@ -1,38 +1,58 @@
 ---
 title: Life Changing Labs
-layout: default
 ---
 
-<link rel="stylesheet" href="{{ site.url }}/assets/css/landing.css">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="image_src" type="image/png" href="{{ site.url }}/assets/img/favicon.png">
+    <title>{{ page.title }}</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/uikit.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/base.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/landing.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="{{ site.url }}/assets/js/uikit.js"></script>
+  </head>
+  <body>
+    <div id="offcanvas" class="uk-offcanvas uk-hidden-small">
+      <div class="uk-offcanvas-bar uk-offcanvas-bar-flip uk-text-right">
+        <a class="lc-link lc-link-active" href="">Home</a><br>
+        <a class="lc-link" href="{{ site.url }}/about">About</a><br>
+        <a class="lc-link" href="{{ site.url }}/companies">Companies</a><br>
+        <a class="lc-link" href="{{ site.url }}/network">Network</a><br>
+        <a class="lc-link" href="{{ site.url }}/blog">Blog</a><br><br>
+        <a class="lc-link lc-link-attention" href="{{ site.url }}/jobs">Careers</a>
+        <div class="lc-contact">
+          <a href="{{ site.url }}"><img src="{{ site.url }}/assets/img/logos/solo-logo-white-35.png" title="Life Changing Labs" alt="Life Changing Labs"></a><br>
+          <a href="">
+            Address 1<br>
+            Address 2<br>
+            Ithaca, New York 14853
+          </a><br><br>
+          (123) 456-7890<br>
+          <a href="mailto:peter@lifechanginglabs.com?Subject=Business%20Inquiry%20For%20Life%20Changing%20Labs">email@lifechanginglabs</a><br><br>
+          <div class="lc-text-small">&#169; 2014 All rights reserved.<br>Life Changing Labs<br>powered by Lightspeed Venture Partners</div>
+        </div>
+      </div>
+    </div>
+    <div class="lc-body-border uk-width-1-1 uk-height-1-1"></div>
+    <div class="lc-bg-1 uk-width-1-1 uk-height-1-1"></div>
+    <div class="uk-width-4-5 uk-container-center">
+      <div class="lc-banner-logo uk-text-center uk-vertical-align">
+        <img class="uk-vertical-align-middle" src="/assets/img/logos/logo-white-250.png" width="200px">
+      </div>
+    </div>
+    <div class="lc-section-1 uk-width-4-5 uk-container-center uk-vertical-align">
+      <div class="uk-width-4-5 uk-vertical-align-middle uk-text-left lc-no-hyphen">
+        <div class="lc-title">We are a collective of top <span class="lc-text-bolder">engineers, designers, and business</span> students working together to launch life changing startups.</div>
+        <a class="lc-title-btn lc-text-smallcaps uk-button" href="#offcanvas" data-uk-offcanvas>learn more</a>
+      </div>
+    </div>
+    <div class="lc-section-2 uk-width-4-5 uk-container-center uk-text-center">
 
-<div class="lc-bg-1 uk-width-1-1 uk-height-1-1"></div>
-<div class="lc-section-1 uk-width-4-5 uk-container-center uk-text-center uk-vertical-align">
-  <div class="uk-width-7-10 uk-vertical-align-middle lc-no-hyphen">
-    <div class="lc-title">We are a collective of top <span class="lc-title-em lc-text-bolder">engineers, designers, and business</span> students working together to launch life changing startups.</div>
-    <a class="lc-title-btn lc-text-smallcaps uk-button" href="#offcanvas" data-uk-offcanvas>learn more</a><br>
-    <!-- <a class="lc-link" href="{{ site.url }}/blog">Read our blog <i class="uk-icon-hand-right"></i></a> -->
-  </div>
-</div>
-<div class="lc-section-2 uk-width-4-5 uk-container-center uk-text-center">
-  <article class="uk-article uk-text-left">
-    <h1 class="uk-article-title">We're Hiring</h1>
-    <p class="uk-article-meta">12 April 2013</p>
-    <p class="uk-article-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Read more <i class="uk-icon-long-arrow-right"></i></a></p>
-  </article>
-  <article class="uk-article uk-text-left">
-    <h1 class="uk-article-title">Scott Belsky</h1>
-    <p class="uk-article-meta">12 April 2013</p>
-    <p class="uk-article-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Read more <i class="uk-icon-long-arrow-right"></i></a></p>
-  </article>
-  <article class="uk-article uk-text-left">
-    <h1 class="uk-article-title">eLab Incubator</h1>
-    <p class="uk-article-meta">12 April 2013</p>
-    <p class="uk-article-lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="">Read more <i class="uk-icon-long-arrow-right"></i></a></p>
-    <hr class="uk-article-divider">
-  </article>
-  <br>
-  <div class="lc-link lc-text-smallcaps lc-text-bold uk-width-1-1 uk-text-center"><a href="{{ site.url }}/blog">All blogs</a></div>
-</div>
+    </div>
+  </body>
+</html>

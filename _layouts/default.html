@@ -3,19 +3,19 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <!-- <link rel="shortcut icon" type="image/png" href="{{ site.url }}/assets/img/favicon.png">
-    <link rel="image_src" type="image/png" href="{{ site.url }}/assets/img/favicon.png"> -->
+    <link rel="shortcut icon" type="image/png" href="{{ site.url }}/assets/img/favicon.png">
+    <link rel="image_src" type="image/png" href="{{ site.url }}/assets/img/favicon.png">
     <title>Life Changing Labs | {{ page.title }}</title>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="{{ site.url }}/assets/js/uikit.js"></script>
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ site.url }}/assets/css/uikit.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/base.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="{{ site.url }}/assets/js/uikit.js"></script>
   </head>
   <body>
     <div id="offcanvas" class="uk-offcanvas uk-hidden-small">
-      <div class="uk-offcanvas-bar uk-offcanvas-bar-flip uk-text-right">
+      <div class="uk-offcanvas-bar uk-text-right">
         <a class="lc-link lc-link-active" href="">Home</a><br>
         <a class="lc-link" href="{{ site.url }}/about">About</a><br>
         <a class="lc-link" href="{{ site.url }}/companies">Companies</a><br>
@@ -35,12 +35,8 @@
         </div>
       </div>
     </div>
-    <div class="lc-body-border uk-width-1-1 uk-height-1-1"></div>
     <div class="uk-width-4-5 uk-container-center">
-      <div class="lc-banner-logo uk-text-center uk-vertical-align">
-        <img class="uk-vertical-align-middle" src="/assets/img/logos/logo-white-250.png" width="200px">
-      </div>
+      {{ content }}
     </div>
-    {{ content }}
   </body>
 </html>

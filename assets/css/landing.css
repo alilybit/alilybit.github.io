@@ -1,5 +1,5 @@
 body {
-  color: #ffffff;
+  color: #222222;
 }
 
 .lc-bg-1 {
@@ -15,20 +15,6 @@ body {
   z-index: -2;
 }
 
-.lc-body-border {
-  position: fixed;
-  border: 15px solid #ffffff;
-  z-index: -1;
-}
-
-.lc-banner-logo {
-  position: fixed;
-  width: 225px;
-  height: 65px;
-  background: #3f3f3f;
-  /*box-shadow: #555555 1px 1px 100px;*/
-}
-
 .lc-section-1 {
   height: 100%;
 }
@@ -36,8 +22,12 @@ body {
 .lc-section-1 .lc-title {
   font-size: 2.7em;
   line-height: 1.1em;
-  /*text-shadow: #555555 1px 1px 40px;*/
   font-weight: 700;
+  color: #ffffff;
+}
+
+.lc-section-1 .lc-title .lc-title-em {
+  color: #3f3f3f;
 }
 
 .lc-section-1 .lc-title-btn {
@@ -56,6 +46,40 @@ body {
   color: #89a826;
 }
 
+.lc-section-1 .lc-link {
+  color: #3f3f3f;
+}
+
+.lc-section-1 .lc-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .lc-section-2 {
-  height: 100%;
+  height: auto;
+  padding: 100px 0;
+}
+
+.lc-section-2 .uk-article .uk-article-title {
+  color: #3f3f3f;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.lc-section-2 .uk-article .uk-article-meta {
+  margin-top: 0;
+}
+
+.lc-section-2 .uk-article a {
+  color: #89a826;
+  text-decoration: none;
+}
+
+.lc-section-2 .uk-article a:hover {
+  color: #3f3f3f;
+}
+
+.lc-section-2 .lc-link {
+  color: #3f3f3f;
+  text-decoration: underline;
 }

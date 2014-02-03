@@ -109,4 +109,9 @@ body {
   width: 225px;
   height: 60px;
   background: #3f3f3f;
+  margin-top: -2px;
+}
+
+.lc-banner-logo:hover {
+  margin-top: 0px;
 }

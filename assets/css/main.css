@@ -57,7 +57,7 @@ body {
   box-shadow: none;
   border: none;
   padding: 12% 40px 10%;
-  width: 150px;
+  width: 175px;
 }
 
 .uk-offcanvas-bar .lc-link {
@@ -178,6 +178,18 @@ body {
   /*margin-bottom: 20px;*/
 }
 
+.lc-footer-line {
+  margin-top: 50px;
+}
+
+.lc-footer {
+  margin: 40px 0 -80px;
+}
+
+.lc-footer a {
+  color: #111111;
+}
+
 /* HOME */
 
 body.home {
@@ -259,18 +271,10 @@ body.about .lc-section .lc-img-half-container {
   margin: 10px 0;
 }
 
-body.about .lc-section .lc-contact {
-  margin: 75px 0 -50px;
-}
-
-body.about .lc-section .lc-contact a {
-  color: #111111;
-}
-
 /* COMPANIES */
 
 body.companies .lc-section {
-  padding: 175px 0 75px;
+  padding: 175px 0;
 }
 
 body.companies .lc-section .lc-filter {
@@ -289,6 +293,14 @@ body.companies .lc-section .lc-filter a.active {
 
 body.companies .lc-section .lc-filter a:hover {
   color: #89a826;
+}
+
+body.companies .lc-section .lc-row img {
+  opacity: 0.8;
+}
+
+body.companies .lc-section .lc-row img:hover {
+  opacity: 1;
 }
 
 body.companies .lc-section .lc-list {
@@ -326,7 +338,7 @@ body.network .lc-section-2 {
 }
 
 body.network .lc-section-3 {
-  padding-bottom: 100px;
+  padding-bottom: 175px;
 }
 
 body.network .lc-text {

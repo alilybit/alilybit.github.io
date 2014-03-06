@@ -8,34 +8,46 @@
     <title>Life Changing Labs | {{ page.title }}</title>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="{{ site.url }}/assets/js/uikit.js"></script>
+    <script type="text/javascript" src="{{ site.url }}/assets/js/sticky.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ site.url }}/assets/css/normalize.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/uikit.css">
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/base.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
+    <style type="text/css">
+      .uk-offcanvas-bar #{{ page.id }} {color: #eeeeee}
+    </style>
   </head>
-  <body>
+  <body class="{{ page.id }}">
+    <a href="#offcanvas" data-uk-offcanvas>  
+      <div class="lc-menu-btn uk-text-center uk-vertical-align">
+        <i class="uk-icon-reorder uk-vertical-align-middle"></i>
+      </div>
+    </a>
     <div id="offcanvas" class="uk-offcanvas uk-hidden-small">
       <div class="uk-offcanvas-bar uk-offcanvas-bar-flip uk-text-right">
-        <a class="lc-link lc-link-active" href="">Home</a><br>
-        <a class="lc-link" href="{{ site.url }}/about">About</a><br>
-        <a class="lc-link" href="{{ site.url }}/companies">Companies</a><br>
-        <a class="lc-link" href="{{ site.url }}/network">Network</a><br>
-        <a class="lc-link" href="{{ site.url }}/blog">Blog</a><br><br>
-        <a class="lc-link lc-link-attention" href="{{ site.url }}/jobs">Careers</a>
+        <a id="home" class="lc-link" href="{{ site.url }}/index.html">Home</a><br>
+        <a id="about" class="lc-link" href="{{ site.url }}/about">About</a><br>
+        <a id="companies" class="lc-link" href="{{ site.url }}/companies">Companies</a><br>
+        <a id="network" class="lc-link" href="{{ site.url }}/network">Network</a><br>
+        <a id="blog" class="lc-link" href="{{ site.url }}/blog">Blog</a><br><br>
+        <a id="careers" class="lc-link lc-link-attention" href="{{ site.url }}/careers">Careers</a>
         <div class="lc-contact">
           <a href="{{ site.url }}"><img src="{{ site.url }}/assets/img/logos/solo-logo-white-35.png" title="Life Changing Labs" alt="Life Changing Labs"></a><br>
           <a href="">
-            Address 1<br>
-            Address 2<br>
+            325 College Avenue<br>
+            <!-- Address 2<br> -->
             Ithaca, New York 14853
-          </a><br><br>
-          (123) 456-7890<br>
-          <a href="mailto:peter@lifechanginglabs.com?Subject=Business%20Inquiry%20For%20Life%20Changing%20Labs">email@lifechanginglabs</a><br><br>
+          </a><br>
+          <!-- (123) 456-7890<br> -->
+          <a href="mailto:contact@lifechanginglabs.com?Subject=Business%20Inquiry%20For%20Life%20Changing%20Labs">contact@lifechanginglabs</a><br><br>
           <div class="lc-text-small">&#169; 2014 All rights reserved.<br>Life Changing Labs<br>powered by Lightspeed Venture Partners</div>
         </div>
       </div>
     </div>
-    <div class="lc-body-border uk-width-1-1 uk-height-1-1"></div>
+    <div class="lc-border lc-border-left"></div>
+    <div class="lc-border lc-border-right"></div>
+    <div class="lc-border lc-border-top"></div>
+    <div class="lc-border lc-border-bottom"></div>
     <div class="uk-width-4-5 uk-container-center">
       <a href="{{ site.url }}/index.html">
         <div class="lc-banner-logo uk-text-center uk-vertical-align">

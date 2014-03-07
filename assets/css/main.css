@@ -377,6 +377,47 @@ body.network .lc-members-list div {
 }
 
 /* BLOG */
+body.blog {
+  /*overflow: hidden;*/
+}
+
+body.blog .lc-latest {
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  border-right: 1px solid #777777;
+  padding: 125px 0;
+}
+
+body.blog .lc-latest .lc-title {
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 900;
+}
+
+body.blog .lc-latest .lc-body {
+  font-size: 18px;
+  line-height: 27px;
+  color: #555555;
+}
+
+body.blog .lc-latest p {
+  margin: 25px 0;
+}
+
+body.blog .lc-list {
+  /*overflow: scroll;*/
+  /*-webkit-overflow-scrolling: touch;*/
+  padding: 125px 0;
+  color: #777777;
+}
+
+body.blog .lc-list .lc-date {
+  
+}
+
+body.blog .lc-list .lc-title {
+
+}
 
 /* CAREER */
 

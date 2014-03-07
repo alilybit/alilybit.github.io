@@ -49,7 +49,7 @@ body {
 
 .lc-text-smallcaps {
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .uk-offcanvas-bar {
@@ -66,7 +66,7 @@ body {
   font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 .uk-offcanvas-bar .lc-link:hover,
@@ -359,6 +359,7 @@ body.network .lc-name {
 
 body.network .lc-position {
   font-size: 11px;
+  font-weight: 700;
   line-height: 13px;
   color: #777777;
   text-transform: uppercase;
@@ -378,11 +379,26 @@ body.network .lc-members-list div {
 
 /* BLOG */
 body.blog {
-  /*overflow: hidden;*/
+  overflow: hidden;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+body.blog ::-webkit-scrollbar {
+  width: 0 !important
+}
+
+body.blog a {
+  color: #777777;
+}
+
+body.blog a:hover {
+  color: #89a826;
+  text-decoration: none;
 }
 
 body.blog .lc-latest {
-  overflow: scroll;
+  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   border-right: 1px solid #777777;
   padding: 125px 0;
@@ -392,6 +408,7 @@ body.blog .lc-latest .lc-title {
   font-size: 35px;
   line-height: 40px;
   font-weight: 900;
+  text-transform: capitalize;
 }
 
 body.blog .lc-latest .lc-body {
@@ -405,18 +422,28 @@ body.blog .lc-latest p {
 }
 
 body.blog .lc-list {
-  /*overflow: scroll;*/
-  /*-webkit-overflow-scrolling: touch;*/
-  padding: 125px 0;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  padding: 125px 0 50px;
   color: #777777;
 }
 
-body.blog .lc-list .lc-date {
-  
+body.blog .lc-list .lc-list-item {
+  margin-bottom: 25px;
 }
 
-body.blog .lc-list .lc-title {
+body.blog .lc-list .lc-list-item .lc-date {
+  font-size: 11px;
+}
 
+body.blog .lc-list .lc-list-item .lc-title {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+
+body.blog .lc-list .lc-list-item .lc-summary {
+  line-height: 17px;
 }
 
 /* CAREER */

@@ -1,0 +1,16 @@
+- name: JB Osborne
+  position: "Red Antler CEO"
+  bio: "JB started his career at Saatchi & Saatchi, working for clients such as Procter & Gamble, General Mills, and the award winning international launch of Air Tahiti Nui. An entrepreneur at heart, he left Saatchi to open the New York office of Consortium, a New Zealand ad agency. In August 2007, JB founded Red Antler. JB has a Bachelors degree in Business, Magna Cum Laude, from Cornell University. He is an advisor and board member to several startups, and serves on the Entrepreneurship at Cornell Advisory Council."
+  img: jbosborne.jpg
+- name: Morgan Beller
+  position: "Andreessen Horowitz Partner"
+  bio: "Morgan Beller is a Partner at Andreesen Horowitz, based in Menlo Park, California. At a16z, Morgan works on the Deal & Research team with her eye on consumer venture deals. Morgan graduated with a B.S. in Statistical Informatics from Cornell University. While at Cornell, Morgan helped found The Popshop."
+  img: morganbeller.jpg
+- name: John Alexander
+  position: "CBORD President & CEO"
+  bio: "John E. Alexander served as President and Chief Executive Officer of The CBORD Group, Inc. (CBORD), a computer software company which Mr. Alexander founded. Prior to CBORD, he was a Vice President in the Money Market Division of Bankers Trust Company. He currently serves on the board of the United Way of Tompkins County and the Food Bank of the Southern Tier, as well as serving as a Trustee Emeritus of Cornell University."
+  img: johnalexander.jpg
+- name: Scott Belsky
+  position: "Behance Founder, Pinterest & Uber Investor"
+  bio: "Scott Belsky co-created the online portfolio platform, Behance, Inc. Belsky is also an active angel investor and advisor in companies including Pinterest, Uber, Paddle8, Shake, and Circa. In December 2012, Behance was acquired by Adobe and Belsky became Vice President of Creative Community at Adobe. Belsky graduated from Cornell University and serves on the advisory board of Cornell University's Entrepreneurship Program."
+  img: scottbelsky.jpg

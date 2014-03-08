@@ -415,6 +415,7 @@ body.blog .lc-latest .lc-body {
   font-size: 18px;
   line-height: 27px;
   color: #555555;
+  word-spacing: 1px;
 }
 
 body.blog .lc-latest p {
@@ -442,8 +443,9 @@ body.blog .lc-list .lc-list-item .lc-title {
   text-transform: capitalize;
 }
 
-body.blog .lc-list .lc-list-item .lc-summary {
+body.blog .lc-list .lc-list-item .lc-excerpt {
   line-height: 17px;
+  overflow: hidden;
 }
 
 /* CAREER */

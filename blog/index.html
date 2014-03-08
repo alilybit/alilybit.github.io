@@ -9,7 +9,7 @@ id: blog
 		<div class="uk-width-4-5">
 			<div class="lc-text-smallcaps lc-text-bolder lc-text-mute">latest post</div>
 			<br>
-			<div class="lc-title">{{ site.posts.first.title }}</div>
+			<div class="lc-title"><a href="{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></div>
 			<div class="lc-date lc-text-mute">{{ site.posts.first.date | date: "%B %-d, %Y" }}</div>
 			<br>
 			<div class="lc-body">{{ site.posts.first.content }}</div>
@@ -17,13 +17,13 @@ id: blog
 	</div>
 	<div class="lc-list uk-width-3-10 uk-float-left uk-height-1-1">
 		<div class="uk-width-9-10 uk-float-right">
-			<div class="lc-text-smallcaps lc-text-bold lc-text-medium">older posts</div>
+			<div class="lc-text-smallcaps lc-text-bold lc-text-medium">archive</div>
 			<br>
 			{% for post in site.posts %}
 			{% if post != site.posts.first %}
 			<div class="lc-list-item">
 				<div class="lc-date lc-text-bold">{{ post.date | date: "%B %-d, %Y" }}</div>
-				<div class="lc-title lc-text-bolder"><a href="{{ post.permalink }}">{{ post.title }}</a></div>
+				<div class="lc-title lc-text-bolder"><a href="{{ post.url }}">{{ post.title }}</a></div>
 				<div class="lc-excerpt line-clamp">{{ post.excerpt | truncatewords: 25 }}</div>
 			</div>
 			{% endif %}

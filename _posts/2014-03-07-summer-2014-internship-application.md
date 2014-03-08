@@ -1,8 +1,11 @@
 ---
 title:  "Now Accepting Applications For '14 Summer Internship"
+categories: blog
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id mi augue. Sed vulputate a turpis in venenatis. Ut vulputate imperdiet sagittis. Phasellus sit amet sapien lectus. Quisque mauris lacus, semper sit amet nunc eget, rutrum vestibulum ante. Proin facilisis feugiat mi a tincidunt. Aliquam rhoncus vulputate lorem, vel vulputate ligula eleifend at. Aenean vel erat eget est blandit pretium. Cras a interdum dui. In hac habitasse platea dictumst.
+
+![Apply now]({{ site.url }}/assets/img/recruit.png)
 
 Pellentesque a eleifend massa. Integer fringilla elementum semper. Curabitur in nisi a turpis molestie mattis. Etiam erat enim, condimentum eu justo in, adipiscing pharetra metus. Aenean vitae aliquet purus. Integer neque nulla, interdum condimentum orci sed, tincidunt dapibus elit. Sed leo purus, porta at enim adipiscing, rhoncus aliquam nulla. Vivamus tincidunt elementum neque id commodo. Aenean vel ligula placerat dolor sodales lacinia. In molestie suscipit cursus. Etiam malesuada quis ante eu fringilla. Nulla aliquam porta tellus a sodales. Aliquam erat volutpat. In nunc purus, feugiat imperdiet blandit in, aliquet vitae arcu. Maecenas dui purus, sollicitudin nec lectus at, lacinia placerat nibh.
 

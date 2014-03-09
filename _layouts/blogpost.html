@@ -14,10 +14,10 @@
     <link rel="stylesheet" href="{{ site.url }}/assets/css/uikit.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
     <style type="text/css">
-      .uk-offcanvas-bar #{{ page.id }} {color: #eeeeee}
+      .uk-offcanvas-bar #blog {color: #eeeeee}
     </style>
   </head>
-  <body class="{{ page.id }}">
+  <body class="blog">
     <a href="#offcanvas" data-uk-offcanvas>  
       <div class="lc-menu-btn uk-text-center uk-vertical-align">
         <i class="uk-icon-reorder uk-vertical-align-middle"></i>
@@ -54,6 +54,32 @@
         </div>
       </a>
     </div>
-    {{ content }}
+    <div class="uk-width-4-5 uk-container-center uk-height-1-1">
+      <div class="lc-latest uk-width-7-10 uk-float-left uk-height-1-1">
+        <div class="uk-width-4-5">
+          <!-- <div class="lc-text-smallcaps lc-text-bolder lc-text-mute">latest post</div>
+          <br> -->
+          <div class="lc-title"><a href="{{ post.url }}">{{ page.title }}</a></div>
+          <div class="lc-date lc-text-mute">{{ page.date | date: "%B %-d, %Y" }}</div>
+          <br>
+          <div class="lc-body">{{ page.content }}</div>
+        </div>
+      </div>
+      <div class="lc-list uk-width-3-10 uk-float-left uk-height-1-1">
+        <div class="uk-width-9-10 uk-float-right">
+          <div class="lc-text-smallcaps lc-text-bold lc-text-medium">archive</div>
+          <br>
+          {% for post in site.posts %}
+          {% if post.title != page.title %}
+          <div class="lc-list-item">
+            <div class="lc-date lc-text-bold">{{ post.date | date: "%B %-d, %Y" }}</div>
+            <div class="lc-title lc-text-bolder"><a href="{{ post.url }}">{{ post.title }}</a></div>
+            <div class="lc-excerpt line-clamp">{{ post.excerpt | truncatewords: 25 }}</div>
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
   </body>
 </html>

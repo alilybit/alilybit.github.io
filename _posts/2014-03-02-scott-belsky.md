@@ -1,6 +1,7 @@
 ---
 title:  "LCL Presents: Scott Belsky"
 categories: blog
+layout: blogpost
 ---
 
 In scelerisque egestas diam sit amet adipiscing. Nam eget aliquam elit, non malesuada velit. Nam quis consectetur massa, nec ultricies metus. Morbi vulputate posuere mauris vitae suscipit. Mauris tincidunt, sapien at sagittis bibendum, ante ipsum tincidunt lacus, quis scelerisque arcu libero et orci. Praesent erat magna, cursus ac mi eget, iaculis auctor mi. Donec adipiscing volutpat massa eu ultricies. Maecenas ut felis diam. Proin elit dolor, sollicitudin et lorem at, lacinia volutpat ante. Maecenas auctor urna id aliquam dictum. Maecenas suscipit malesuada augue, ac fermentum felis volutpat eget. Maecenas eu sagittis augue. Phasellus elementum eros dui, ut sollicitudin mi venenatis quis. Morbi id elit lorem.

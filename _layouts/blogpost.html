@@ -57,12 +57,10 @@
     <div class="uk-width-4-5 uk-container-center uk-height-1-1">
       <div class="lc-latest uk-width-7-10 uk-float-left uk-height-1-1">
         <div class="uk-width-4-5">
-          <!-- <div class="lc-text-smallcaps lc-text-bolder lc-text-mute">latest post</div>
-          <br> -->
-          <div class="lc-title"><a href="{{ post.url }}">{{ page.title }}</a></div>
+          <div class="lc-title"><a href="{{ page.url }}">{{ page.title }}</a></div>
           <div class="lc-date lc-text-mute">{{ page.date | date: "%B %-d, %Y" }}</div>
           <br>
-          <div class="lc-body">{{ page.content }}</div>
+          <div class="lc-body">{{ content }}</div>
         </div>
       </div>
       <div class="lc-list uk-width-3-10 uk-float-left uk-height-1-1">

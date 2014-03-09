@@ -455,13 +455,13 @@ body.blog .lc-list .lc-list-item .lc-excerpt {
   overflow: hidden;
 }
 
-/* CAREER */
+/* OPPORTUNITIES */
 
-body.careers .lc-section {
+body.opportunities .lc-section {
   padding: 175px 0 75px;
 }
 
-body.careers .lc-position {
+body.opportunities .lc-position {
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;

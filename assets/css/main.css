@@ -125,6 +125,11 @@ a:hover {
   color: #555555;
 }
 
+.uk-offcanvas-bar .lc-contact i {
+  font-size: 16px;
+  margin-left: 2px;
+}
+
 .lc-border {
   background: #89a826;
   position: fixed;
@@ -161,7 +166,7 @@ a:hover {
   position: fixed;
   top: 0px;
   width: 225px;
-  height: 60px;
+  height: 50px;
   background: #3f3f3f;
   margin-top: -1px;
 }
@@ -190,7 +195,6 @@ a:hover {
 .lc-title {
   font-size: 24px;
   font-weight: 700;
-  /*margin-bottom: 20px;*/
 }
 
 .lc-footer-line {
@@ -203,6 +207,15 @@ a:hover {
 
 .lc-footer a {
   color: #111111;
+}
+
+.lc-footer i {
+  font-size: 16px;
+  color: #222222;
+}
+
+.lc-footer i:hover {
+  color: #89a826;
 }
 
 /* ========================================================================== */
@@ -490,6 +503,7 @@ body.opportunities .lc-section {
 
 body.opportunities .uk-button {
   margin-right: 10px;
+  border-radius: 0px;
 }
 
 body.opportunities .lc-position {
@@ -497,4 +511,12 @@ body.opportunities .lc-position {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+/* ========================================================================== */
+/* Opportunities
+/* ========================================================================== */
+
+body.invest .lc-section {
+  padding: 175px 0 75px;
 }

@@ -28,28 +28,32 @@ id: network
 <div class="lc-section-2 uk-width-4-5 uk-container-center uk-text-center lc-no-overflow">
 	<div class="lc-text uk-width-4-5 uk-container-center uk-text-left">
 		<div class="lc-text-medium lc-text-bold lc-text-smallcaps lc-text-mute">Partners &#38; support team</div>
-		<p class="uk-width-4-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas neque justo, imperdiet non accumsan non, laoreet sed ante. Integer at lacus sed augue tempus suscipit. Quisque ut lacus eget justo porta placerat.</p>
 	</div>
 	<br><br>
-	{% for partner in site.data.partners %}
-	<div class="uk-width-1-6 uk-float-left uk-text-left">
-		<img class="uk-width-4-5" src="{{ site.url }}/assets/img/{{ partner.img }}.jpg">
-		<br><br>
-		<div class="lc-name">{{ partner.name }}</div>
-		<div class="lc-position">{{ partner.position }}</div>
+	<div class="uk-container" data-uk-grid-match>
+		{% for partner in site.data.partners %}
+		<div class="lc-partners uk-width-1-5 uk-float-left uk-text-left">
+			<img class="uk-width-4-5" src="{{ site.url }}/assets/img/{{ partner.img }}">
+			<br><br>
+			<div class="lc-name">{{ partner.name }}</div>
+			<div class="lc-position uk-width-9-10">{{ partner.position }}</div>
+		</div>
+		{% endfor %}
 	</div>
-	{% endfor %}
+	<br>
+	<div class="uk-width-4-5 uk-container-center uk-text-left">
+		<p class="uk-width-4-5 lc-text-mute">Special thanks to Teddy Brinkofski, Ricky Panzer, Benjamin Reinhardt, and Mike Gorman.</p>
+	</div>
 </div>
 <hr class="uk-width-4-5 uk-container-center">
 <div class="lc-section-3 uk-width-4-5 uk-container-center uk-text-center lc-no-overflow">
 	<div class="lc-text uk-width-4-5 uk-container-center uk-text-left">
 		<div class="lc-text-medium lc-text-bold lc-text-smallcaps lc-text-mute">Members</div>
-		<p class="uk-width-4-5">Our team of developers, designers, and biz devs have been recruited by Google, Amazon, Facebook, Microsoft, TripAdvisor, Yelp, Bessemer, Palantir along with a number of VC backed startups. They are also all part of the founding team of an LCL startup!</p>
 	</div>
 	<br><br>
-	<div class="lc-members-list">	
+	<div class="lc-members-list">
 		{% for member in site.data.members %}
-		<div class="lc-name uk-width-1-6 uk-float-left uk-text-left">{{ member.name }}</div>
+		<div class="lc-name uk-width-1-5 uk-float-left uk-text-left" data-uk-tooltip="{pos:'top-left'}" title="{{ member.company }}">{{ member.name }}</div>
 		{% endfor %}
 	</div>
 	{% include footer.html %}

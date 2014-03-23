@@ -1,3 +1,5 @@
+/*! Life Changing Labs | made by Lillian Chen | March, 2014 */
+
 body, html {
   height: 100%;
 }
@@ -15,6 +17,12 @@ a {
   -ms-transition: color 0.2s ease-in-out;
   -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
+  color: #89a826;
+}
+
+a:hover {
+  color: #222222;
+  text-decoration: none;
 }
 
 .uk-button {
@@ -197,7 +205,9 @@ a {
   color: #111111;
 }
 
-/* HOME */
+/* ========================================================================== */
+/* Home
+/* ========================================================================== */
 
 body.home {
   color: #222222;
@@ -205,11 +215,6 @@ body.home {
   top: 0px;
   left: 0px;
   background: #89a826;
-  /*background: url(/assets/img/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
   z-index: -2;
 }
 
@@ -278,7 +283,9 @@ body.about .lc-section .lc-img-half-container {
   margin: 10px 0;
 }
 
-/* COMPANIES */
+/* ========================================================================== */
+/* Companies
+/* ========================================================================== */
 
 body.companies .lc-section {
   padding: 175px 0;
@@ -326,7 +333,9 @@ body.companies .lc-section .lc-list .lc-list-detail a {
   color: #89a826;
 }
 
-/* NETWORK */
+/* ========================================================================== */
+/* Network
+/* ========================================================================== */
 
 body.network .lc-section-1 {
   padding: 175px 0 50px;
@@ -372,11 +381,27 @@ body.network .lc-bio {
   color: #777777;
 }
 
-body.network .lc-members-list div {
-  line-height: 30px;
+body.network .lc-partners {
+  margin-bottom: 25px;
+  word-wrap: break-word;
 }
 
-/* BLOG */
+body.network .lc-members-list div {
+  line-height: 30px;
+  cursor: default;
+}
+
+body.network .uk-tooltip {
+  border-radius: 0px;
+  background: #89a826;
+  color: #ffffff;
+  text-shadow: none;
+}
+
+/* ========================================================================== */
+/* Blog
+/* ========================================================================== */
+
 body.blog {
   overflow: hidden;
   -ms-overflow-style: none;
@@ -455,10 +480,16 @@ body.blog .lc-list .lc-list-item .lc-excerpt {
   overflow: hidden;
 }
 
-/* OPPORTUNITIES */
+/* ========================================================================== */
+/* Opportunities
+/* ========================================================================== */
 
 body.opportunities .lc-section {
   padding: 175px 0 75px;
+}
+
+body.opportunities .uk-button {
+  margin-right: 10px;
 }
 
 body.opportunities .lc-position {

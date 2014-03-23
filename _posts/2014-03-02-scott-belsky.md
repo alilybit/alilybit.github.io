@@ -4,14 +4,13 @@ categories: blog
 layout: blogpost
 ---
 
-In scelerisque egestas diam sit amet adipiscing. Nam eget aliquam elit, non malesuada velit. Nam quis consectetur massa, nec ultricies metus. Morbi vulputate posuere mauris vitae suscipit. Mauris tincidunt, sapien at sagittis bibendum, ante ipsum tincidunt lacus, quis scelerisque arcu libero et orci. Praesent erat magna, cursus ac mi eget, iaculis auctor mi. Donec adipiscing volutpat massa eu ultricies. Maecenas ut felis diam. Proin elit dolor, sollicitudin et lorem at, lacinia volutpat ante. Maecenas auctor urna id aliquam dictum. Maecenas suscipit malesuada augue, ac fermentum felis volutpat eget. Maecenas eu sagittis augue. Phasellus elementum eros dui, ut sollicitudin mi venenatis quis. Morbi id elit lorem.
+Scott Belsky co-created the online portfolio platform, Behance, Inc. Belsky is also an active angel investor and advisor in companies including Pinterest, Uber, Paddle8, Shake, and Circa. In December 2012, Behance was acquired by Adobe and Belsky became Vice President of Creative Community at Adobe. Belsky graduated from Cornell University and serves on the advisory board of Cornell University's Entrepreneurship Program.
 
-In aliquet ante ligula, vitae consequat ipsum vehicula a. Sed ac risus tempor, rhoncus urna ac, mattis arcu. Nulla cursus, diam vel vulputate consequat, metus augue dapibus neque, ut adipiscing velit dui eget turpis. Maecenas consectetur condimentum consectetur. Praesent dictum magna risus, ac accumsan risus tempus vel. Phasellus gravida in erat et auctor. Morbi in venenatis ligula.
-
-Cras tellus arcu, luctus ac eleifend in, ullamcorper in arcu. Cras pellentesque tellus turpis, quis interdum diam tempor et. Maecenas molestie gravida hendrerit. Mauris et leo dui. Nullam id libero lectus. Pellentesque erat lacus, dapibus sed bibendum et, euismod vitae diam. Quisque lacinia convallis lacus, in convallis tortor blandit ac. Sed vel pellentesque turpis, ut pharetra risus. Proin dapibus enim in cursus dictum.
-
-Ut consequat ornare est, id pellentesque ligula porta id. Ut in sodales orci, in hendrerit neque. Ut euismod, purus nec euismod lacinia, purus lorem vehicula tellus, ut malesuada purus orci sed nisl. Vivamus adipiscing quis odio ut tincidunt. Morbi id quam cursus, consequat quam vitae, suscipit sem. Phasellus sed enim non purus malesuada consequat ut eget nulla. Aenean hendrerit fermentum pretium. Vestibulum porta nisl odio, at pretium ante fermentum ac. Duis quis ullamcorper velit. Vestibulum quis gravida massa. Nunc laoreet nec sapien non porta. Donec enim enim, tincidunt et felis quis, fermentum gravida metus. Donec tempus arcu vitae metus tincidunt, et elementum felis commodo. Nunc felis dui, dapibus in mauris sit amet, fermentum feugiat quam.
-
-Vivamus malesuada dui nec lacinia vulputate. Donec dictum metus vel scelerisque consectetur. Nunc posuere id tellus non egestas. Duis a urna sit amet ante gravida sagittis in ut nibh. Etiam dui massa, feugiat eget malesuada id, sollicitudin eu ligula. Nam et pharetra ante. Integer sit amet eros quis ipsum tincidunt semper. Donec ullamcorper dapibus ligula, a cursus dui fringilla ut. Sed convallis vitae tellus a sodales. Nunc tellus purus, bibendum nec imperdiet non, dapibus in nisl. Morbi vitae lobortis velit, non adipiscing nulla. Nulla tempus eleifend risus sit amet tristique. Nunc euismod, nisi pharetra sodales ultrices, purus nibh gravida mi, nec dictum nisl odio nec enim. In semper faucibus adipiscing. Vestibulum nisl nibh, posuere vel orci quis, fringilla tristique nibh.
-
-In ac dui et augue viverra lacinia. Ut sit amet lectus egestas, lacinia risus at, mollis ante. Phasellus non libero tortor. Integer eu odio ut felis interdum fermentum quis eget est. Phasellus imperdiet tellus eu est venenatis consequat. Ut eget nunc rhoncus dolor consequat suscipit nec sit amet nisi. Fusce consectetur urna ac dui porta ornare. Ut ullamcorper ultrices dignissim. Cras adipiscing dui pulvinar venenatis tristique. Proin eu metus vel augue fringilla ultrices ut tincidunt arcu. Curabitur bibendum sodales purus at dignissim. Mauris quis nisi quam. Sed luctus dui a auctor ullamcorper. Quisque adipiscing vulputate aliquam.
+![Scott Belsky]({{ site.url }}/assets/img/blog/scottbelsky1.jpg)
+![Scott Belsky]({{ site.url }}/assets/img/blog/scottbelsky2.jpg)
+![Scott Belsky]({{ site.url }}/assets/img/blog/scottbelsky4.jpg)
+![Scott Belsky]({{ site.url }}/assets/img/blog/scottbelsky3.jpg)
+![Scott Belsky]({{ site.url }}/assets/img/blog/scottbelsky5.jpg)
+![Scott Belsky]({{ site.url }}/assets/img/blog/scottbelsky6.jpg)
+![Scott Belsky]({{ site.url }}/assets/img/blog/scottbelsky7.jpg)
+![Scott Belsky]({{ site.url }}/assets/img/blog/scottbelsky8.jpg)

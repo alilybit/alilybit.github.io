@@ -1,18 +1,27 @@
 - name: Peter Cortle
-  position: Co-founder of LCL
-  img: petercortle
+  position: 'Founder & Director'
+  img: petercortle.jpg
 - name: Adam Kirsch
-  position: Partner
-  img: adamkirsch
+  position: 'Partner -<br>Talent & Communications'
+  img: adamkirsch.jpg
 - name: Pam Wang
-  position: Partner
-  img: user
-- name: Mike Gorman
-  position: Partner
-  img: user
+  position: 'Partner -<br>Market Development & Strategy'
+  img: pamwang.jpg
+- name: Vinay Ramprasad
+  position: 'Partner -<br>Business Development'
+  img: vinayramprasad.jpg
 - name: Reed Boehringer
-  position: Partner
-  img: user
+  position: 'Partner -<br>Community'
+  img: reedboehringer.jpg
+- name: Michael Gardo
+  position: 'Support Team -<br>Digital Marketing'
+  img: michaelgardo.jpg
+- name: Stephanie Ko
+  position: 'Support Team -<br>Marketing & Operations'
+  img: stephanieko.jpg
+- name: Jean Gerow
+  position: 'Support Team -<br>Finances & Special Projects'
+  img: jeangerow.jpg
 - name: Pam Silverstein
-  position: Entrepreneur in residence
-  img: pamsilverstein
+  position: 'Entrepreneur-in-Residence'
+  img: pamsilverstein.jpg

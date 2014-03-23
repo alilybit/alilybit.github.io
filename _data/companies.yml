@@ -1,0 +1,40 @@
+- company: Speare
+  team: 'Rahul Shah, Sungho Park, Alisha Sojar, Holly Wiberg, Edward Gong, Demitri Tzitzon'
+  website: [ www.spea.re ]
+  img: speare.png
+  description: 'Speare provides a smart content recommendation engine and analytics dashboard to news and media sites. We are creating a smarter engine that better understands the user through Artificial Intelligence and Natural Language Processing increasing user engagement and allowing publishers to improve overall performance.'
+- company: Yorango
+  team: 'Adam Kirsch, Teddy Brinkofski, Will Feng, Dylan Yang, Josh Benamram, +others'
+  website: [ www.yorango.com ]
+  img: yorango.png
+  description: 'Yorango takes the stress out of rentals by connecting and providing tools for landlords and students. Our platform allows tenants to find housing, sign leases, pay rent, and request repairs online. Landlords are able to list and manage properties in the simplest and most efficient way.'
+- company: Fiberspark
+  team: 'Jeff Shaffer, Jay Lee, Chris Leavitt, Pam Wang. Tingting Wu, Eric Tan'
+  website: [ www.fiberspark.com ]
+  img: fiberspark.png
+  description: 'Fiberspark is a new kind of Internet Service Provider that puts the customer first. We provide connectivity that never slows down or cuts out and invest in customer care, making sure that every interaction is handled by a team member that is knowledgeable and empowered to help.'
+- company: Tunetap
+  team: 'Feifan Zhou, Jon Rudolph, Mengyun Xia, Mike Falb'
+  website: [ www.tunetap.com ]
+  img: tunetap.png
+  description: 'Tunetap lets musicians and venues improve their bottom line by making better decisions. Our platform allows the clients to pre-sell tickets to guarantee an audience and provides analytics to predict user behavior and turnout.'
+- company: ellaspark
+  team: 'David Cho, Jimmy Chen, Lillian Chen, Kira Gidron'
+  website: [ www.ellaspark.com ]
+  img: ellaspark.png
+  description: 'ellaspark brings together startups to compete for non-dilutive crowdfunding and increase demand for their product to grow their company.'
+- company: The Exhibition
+  team: 'Suchan Lee, Amy Lee, Vinay Ramprasad'
+  website: []
+  img: exhibition.png
+  description: 'The Exhibition allows artists to curate and display beautiful works of art online like never before.'
+- company: StartupBook
+  team: 'Brendan Doyle'
+  website: [ www.startupbook.co ]
+  img: startupbook.png
+  description: 'StartupBook curates the most relevant startup news and advice from top publications and blogs of the most prominent VCs. Just one year into launch, StartupBook is frequently read and referenced by top entrepreneurs from over 122 countries.'
+- company: Collegiate Sun
+  team: 'Alex Tschopp, Anthony Scandariato, Gage Hunt, Justin Stamp'
+  website: [ www.collegiatesun.com, www.thehardynorth.com ]
+  img: collegiatesun.png
+  description: 'Collegiate Sun Brands improves the image and perception of campus stores by designing and sourcing high quality collegiate merchandise which we also sell online. We currently do this through two brands, Collegiate Sun and The Hardy North.'

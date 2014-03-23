@@ -227,6 +227,7 @@ body.home {
   position: absolute;
   top: 0px;
   left: 0px;
+  right: 0px;
   background: #89a826;
   z-index: -2;
 }
@@ -241,20 +242,10 @@ body.home .lc-border {
 
 body.home .lc-section {
   height: 100%;
+  padding-top: 50px;
 }
 
-body.home .lc-section .lc-title {
-  font-size: 2.7em;
-  line-height: 1.1em;
-  font-weight: 700;
-  color: #ffffff;
-}
-
-body.home .lc-section .lc-title .lc-title-em {
-  color: #3f3f3f;
-}
-
-body.home .lc-section .lc-title-btn {
+body.home .lc-section .uk-button {
   background: none;
   border: 1px solid #ffffff;
   border-radius: 0;
@@ -265,7 +256,7 @@ body.home .lc-section .lc-title-btn {
   font-size: 12px;
 }
 
-body.home .lc-section .lc-title-btn:hover {
+body.home .lc-section .uk-button:hover {
   background: #ffffff;
   color: #89a826;
 }
@@ -514,7 +505,7 @@ body.opportunities .lc-position {
 }
 
 /* ========================================================================== */
-/* Opportunities
+/* Invest
 /* ========================================================================== */
 
 body.invest .lc-section {

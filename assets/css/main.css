@@ -318,7 +318,7 @@ body.companies .lc-section .lc-list {
 }
 
 body.companies .lc-section .lc-list .lc-list-img {
-  border-right: 1px solid #777777;
+  border-right: 2px solid #aaaaaa;
 }
 
 body.companies .lc-section .lc-list .lc-list-detail {

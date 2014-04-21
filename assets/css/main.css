@@ -485,6 +485,26 @@ body.blog .lc-list .lc-list-item .lc-excerpt {
 }
 
 /* ========================================================================== */
+/* Bootcamp
+/* ========================================================================== */
+
+body.bootcamp .lc-section {
+  padding: 175px 0 75px;
+}
+
+body.bootcamp .uk-button {
+  margin-right: 10px;
+  border-radius: 0px;
+}
+
+body.bootcamp .lc-position {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ========================================================================== */
 /* Opportunities
 /* ========================================================================== */
 

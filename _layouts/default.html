@@ -26,10 +26,15 @@
 
       ga('create', 'UA-37790456-1', 'lifechanginglabs.com');
       ga('send', 'pageview');
+
+      $(window).load(function() {
+        $(".loader").delay(2000).fadeOut();
+      })
     </script>
   </head>
   <body class="{{ page.id }}">
     {% include header.html %}
+    <div class="loader"></div>
     {{ content }}
   </body>
 </html>

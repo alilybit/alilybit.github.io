@@ -69,9 +69,9 @@
     <div class="uk-width-4-5 uk-container-center uk-height-1-1">
       <div class="lc-latest uk-width-7-10 uk-float-left uk-height-1-1">
         <div class="uk-width-4-5">
-          <div class="lc-title"><a href="{{ page.url }}">{{ page.title }}</a></div>
-          <div class="lc-date lc-text-mute">{{ page.date | date: "%B %-d, %Y" }}</div>
-          <br>
+          <div class="lc-title uk-text-center"><a href="{{ page.url }}">{{ page.title }}</a></div>
+          <div class="lc-author lc-text-mute uk-text-center">by {{ page.author }}</div>
+          <div class="lc-date lc-text-mute uk-text-center">{{ page.date | date: "%B %-d, %Y" }}</div>
           <div class="lc-body">{{ content }}</div>
         </div>
       </div>

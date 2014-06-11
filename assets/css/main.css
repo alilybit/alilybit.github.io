@@ -443,8 +443,29 @@ body.blog .lc-latest .lc-title {
   text-transform: capitalize;
 }
 
+/*body.blog .lc-latest .lc-author {
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 900;
+  text-transform: capitalize;
+}*/
+
+body.blog .lc-latest a {
+  color: #444444;
+  border-bottom: 1px solid #89a826;
+}
+
+body.blog .lc-latest a:hover {
+  color: #89a826;
+}
+
+body.blog .lc-latest .lc-title {
+  margin-bottom: 10px;
+}
+
 body.blog .lc-latest .lc-title a {
   color: #222222;
+  border: none;
 }
 
 body.blog .lc-latest .lc-title a:hover {
@@ -452,15 +473,27 @@ body.blog .lc-latest .lc-title a:hover {
 }
 
 body.blog .lc-latest .lc-body {
-  font-size: 18px;
-  line-height: 27px;
-  color: #555555;
+  font-size: 17px;
+  line-height: 22px;
+  color: #444;
   word-spacing: 1px;
 }
 
 body.blog .lc-latest p {
   margin: 25px 0;
 }
+
+body.blog .lc-latest em {
+  color: #444;
+}
+
+body.blog .lc-latest blockquote {
+  color: #666;
+}
+
+/*body.blog .lc-latest img {
+  width: 60%;
+}*/
 
 body.blog .lc-list {
   overflow-y: scroll;

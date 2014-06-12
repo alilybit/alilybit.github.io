@@ -111,10 +111,14 @@ a:hover {
   color: #444444;
 }
 
-.uk-offcanvas-bar .lc-contact img {
-  width: 30px;
-  opacity: 0.25;
+@media screen{
+    .uk-offcanvas-bar .lc-contact img {
+      width: 30px;
+      opacity: 0.25;
+    }
 }
+
+@media handheld
 
 .uk-offcanvas-bar .lc-contact img:hover {
   opacity: 0.35;
@@ -273,6 +277,37 @@ body.home .lc-section .lc-link:hover {
   color: #ffffff;
   text-decoration: none;
 }
+
+#slogan{
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+#strongtext{
+    color: #3F3F3F;
+}
+
+br .uk-width-medium*{
+    visibility: collapse;
+}
+
+/*Media queries to alter font size with screen width*/
+@media only screen and (max-width: 767px){
+    #slogan{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 959x){
+    #slogan{
+        font-size: 27px;
+    }
+}
+
+/*change for handheld and other devices*/
+
 
 /* ABOUT */
 

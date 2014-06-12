@@ -367,7 +367,7 @@ body.about .lc-section .lc-img-half-container {
     visibility: collapse;
 }
 
-@media (max-width: 600px) {
+@media (max-device-width: 767px) {
     body.about p{
         font-size: 10px;
     }

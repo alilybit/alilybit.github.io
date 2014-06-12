@@ -377,6 +377,20 @@ body.about .lc-section .lc-img-half-container {
     }
 }
 
+body.about .left {
+    float: left;
+    padding: 10px;
+}
+
+body.about .right {
+    float: right;
+    padding: 10px;
+}
+
+body.about .single {
+    padding: 10px;
+}
+
 /* ========================================================================== */
 /* Companies
 /* ========================================================================== */

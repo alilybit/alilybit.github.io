@@ -118,10 +118,12 @@ a:hover {
     }
 }
 
-@media handheld
+@media handheld {
 
-.uk-offcanvas-bar .lc-contact img:hover {
-  opacity: 0.35;
+	.uk-offcanvas-bar .lc-contact img:hover {
+	  opacity: 0.35;
+	}
+
 }
 
 .uk-offcanvas-bar .lc-contact a {
@@ -293,20 +295,58 @@ br .uk-width-medium*{
     visibility: collapse;
 }
 
-/*Media queries to alter font size with screen width*/
+/*Media queries to alter font size and menu format with screen width*/
 @media only screen and (max-width: 767px){
+	
+	#mobile-head, .modalbutton {
+		visibility: collapse;
+	}
+	
     #slogan{
         font-size: 15px;
     }
 }
 
+
 @media only screen and (max-width: 959x){
+	
     #slogan{
         font-size: 27px;
     }
+	
 }
 
 /*change for handheld and other devices*/
+
+@media (max-device-width: 767px){
+	
+	#non-mobile-head, .offcanvasbutton {
+		visibility:collapse;
+	}
+	
+	#mobile-head, .modalbutton {
+		visibility: visible;
+	}
+	
+    #slogan{
+        font-size: 15px;
+    }
+}
+
+@media (min-device-width: 768px){
+	
+    #mobile-head, .modalbutton {
+		visibility: collapse;
+	}
+}
+
+@media (max-device-width: 959x){
+	
+    #slogan{
+        font-size: 27px;
+    }
+	
+}
 
 
 /* ABOUT */

@@ -5,23 +5,23 @@ The LCL website is hosted on [Github Pages](https://pages.github.com/) and there
 ## Datastructure
 Before attempting to edit general text information, please note the following.
 
-  ### Dependencies
-  [UIKit](http://getuikit.com/) serves as the front-end framework, which also requires FontAwesome. Lato is provided by Google.
+### Dependencies
+[UIKit](http://getuikit.com/) serves as the front-end framework, which also requires FontAwesome. Lato is provided by Google.
 
-  ### YAML Data
-  All data are loaded from [YAML](http://www.yaml.org/spec/1.2/spec.html) files in the `_data` directory. Right now, the following "databases" are active:
+### YAML Data
+All data are loaded from [YAML](http://www.yaml.org/spec/1.2/spec.html) files in the `_data` directory. Right now, the following "databases" are active:
 
-  - `blog.yml` - `/blog`
-  - `companies.yml` - `/companies`
-  - `guests.yml` - `/network`
-  - `members.yml` - `/network`
-  - `partners.yml` - `/network`
+- `blog.yml` - `/blog`
+- `companies.yml` - `/companies`
+- `guests.yml` - `/network`
+- `members.yml` - `/network`
+- `partners.yml` - `/network`
 
-  Properties in these data files are accessed via `site.data`.
+Properties in these data files are accessed via `site.data`.
 
-  ### Blog
-  The blog is managed by Jekyll's native "blog aware" functionality in the `_posts` directory. Images are stores in `{{ site.url }}/assets/img/blog`
+### Blog
+The blog is managed by Jekyll's native "blog aware" functionality in the `_posts` directory. Images are stores in `{{ site.url }}/assets/img/blog`
 
-  When creating new posts, you **must** follow the Jekyll convention for naming post files, such as `2014-06-11-example.md`. All posts are written in Markdown with the following front matter: `title, author, layout, categories, id`. `layout` must be "blogpost". `categories` and `id` must always be "blog".
+When creating new posts, you **must** follow the Jekyll convention for naming post files, such as `2014-06-11-example.md`. All posts are written in Markdown with the following front matter: `title, author, layout, categories, id`. `layout` must be "blogpost". `categories` and `id` must always be "blog".
 
-  If the author of a post wants to include a short bio, simply add his/her name and bio to `blog.yml`.
+If the author of a post wants to include a short bio, simply add his/her name and bio to `blog.yml`.

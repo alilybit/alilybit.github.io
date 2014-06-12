@@ -5,7 +5,7 @@ id: blog
 ---
 
 <div class="uk-width-4-5 uk-container-center uk-height-1-1">
-	<div class="lc-latest uk-width-7-10 uk-float-left uk-height-1-1">
+	<div class="lc-post uk-width-7-10 uk-float-left uk-height-1-1">
 		<div class="uk-width-4-5">
 			<div class="lc-text-smallcaps lc-text-bolder lc-text-mute uk-text-center">latest post</div>
 			<br>
@@ -13,6 +13,11 @@ id: blog
 			<div class="lc-author lc-text-mute uk-text-center">by {{ site.posts.first.author }}</div>
 			<div class="lc-date lc-text-mute uk-text-center">{{ site.posts.first.date | date: "%B %-d, %Y" }}</div>
 			<div class="lc-body">{{ site.posts.first.content }}</div>
+			{% for author in site.data.authors %}
+				{% if author.name == site.posts.first.author %}
+					<div class="lc-bio lc-text-mute">{{ author.bio }}</div>
+				{% endif %}
+			{% endfor %}
 		</div>
 	</div>
 	<div class="lc-list uk-width-3-10 uk-float-left uk-height-1-1">
@@ -20,13 +25,13 @@ id: blog
 			<div class="lc-text-smallcaps lc-text-bold lc-text-medium">archive</div>
 			<br>
 			{% for post in site.posts %}
-			{% if post != site.posts.first %}
-			<div class="lc-list-item">
-				<div class="lc-date lc-text-bold">{{ post.date | date: "%B %-d, %Y" }}</div>
-				<div class="lc-title lc-text-bolder"><a href="{{ post.url }}">{{ post.title }}</a></div>
-				<div class="lc-excerpt line-clamp">{{ post.excerpt | truncatewords: 25 }}</div>
-			</div>
-			{% endif %}
+				{% if post != site.posts.first %}
+					<div class="lc-list-item">
+						<div class="lc-date lc-text-bold">{{ post.date | date: "%B %-d, %Y" }}</div>
+						<div class="lc-title lc-text-bolder"><a href="{{ post.url }}">{{ post.title }}</a></div>
+						<div class="lc-excerpt line-clamp">{{ post.excerpt | truncatewords: 20 }}</div>
+					</div>
+				{% endif %}
 			{% endfor %}
 		</div>
 	</div>

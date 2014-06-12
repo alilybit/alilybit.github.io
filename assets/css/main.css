@@ -441,69 +441,70 @@ body.blog a:hover {
   text-decoration: none;
 }
 
-body.blog .lc-latest {
+body.blog .lc-post {
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   border-right: 1px solid #777777;
-  padding: 125px 0;
+  padding: 100px 0;
 }
 
-body.blog .lc-latest .lc-title {
+body.blog .lc-post .lc-title {
   font-size: 35px;
   line-height: 40px;
   font-weight: 900;
   text-transform: capitalize;
 }
 
-/*body.blog .lc-latest .lc-author {
-  font-size: 35px;
-  line-height: 40px;
-  font-weight: 900;
-  text-transform: capitalize;
-}*/
+body.blog .lc-post .lc-bio {
+  margin-top: 75px;
+  border-top: 1px solid #89a826;
+  padding-top: 20px;
+  font-size: 14px;
+  line-height: 17px;
+}
 
-body.blog .lc-latest a {
+body.blog .lc-post a {
   color: #444444;
   border-bottom: 1px solid #89a826;
 }
 
-body.blog .lc-latest a:hover {
+body.blog .lc-post a:hover {
   color: #89a826;
 }
 
-body.blog .lc-latest .lc-title {
+body.blog .lc-post .lc-title {
   margin-bottom: 10px;
 }
 
-body.blog .lc-latest .lc-title a {
+body.blog .lc-post .lc-title a {
   color: #222222;
   border: none;
 }
 
-body.blog .lc-latest .lc-title a:hover {
+body.blog .lc-post .lc-title a:hover {
   color: #89a826;
 }
 
-body.blog .lc-latest .lc-body {
+body.blog .lc-post .lc-body {
   font-size: 17px;
   line-height: 22px;
   color: #444;
   word-spacing: 1px;
 }
 
-body.blog .lc-latest p {
+body.blog .lc-post p {
   margin: 25px 0;
 }
 
-body.blog .lc-latest em {
+body.blog .lc-post em {
   color: #444;
 }
 
-body.blog .lc-latest blockquote {
+body.blog .lc-post blockquote {
   color: #666;
 }
 
-/*body.blog .lc-latest img {
+/*body.blog .lc-post img {
   width: 60%;
 }*/
 

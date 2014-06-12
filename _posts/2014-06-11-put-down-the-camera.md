@@ -1,6 +1,6 @@
 ---
-title:  "Put Down the Camera"
-author: "Justin Selig"
+title:  Put Down the Camera
+author: Justin Selig
 layout: blogpost
 categories: blog
 id: blog

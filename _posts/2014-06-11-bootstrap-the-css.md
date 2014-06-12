@@ -1,6 +1,6 @@
 ---
-title:  "Bootstrap the CSS"
-author: "Luke Goodman"
+title:  Bootstrap the CSS
+author: Luke Goodman
 layout: blogpost
 categories: blog
 id: blog

@@ -293,7 +293,6 @@ br .uk-width-medium*{
     visibility: collapse;
 }
 
-
 /*Media queries to alter font size with screen width*/
 @media only screen and (max-width: 767px){
     #slogan{
@@ -301,7 +300,7 @@ br .uk-width-medium*{
     }
 }
 
-@media only screen and (max-width: 959x){
+@media only screen and (max-width: 959px){
     #slogan{
         font-size: 27px;
     }
@@ -327,9 +326,17 @@ body.about .lc-section .lc-img-half-container {
   margin: 10px 0;
 }
 
-@media handheld {
+.pic-respond{
+    visibility: collapse;
+}
+
+@media (max-width: 600px) {
     body.about p{
         font-size: 10px;
+    }
+    
+    .pic-respond{
+        visibility: visible;
     }
 }
 

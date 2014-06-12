@@ -1,8 +1,9 @@
 ---
 title:  "Put Down the Camera"
 author: "Justin Selig"
-categories: blog
 layout: blogpost
+categories: blog
+id: blog
 ---
  
 With the influx of photography apps into smartphone app stores, photo-taking has become an increasingly globalized phenomenon. You’ve seen them, they number in the hundreds of thousands: Snapchat, Photoshop, Pic Stitch, and countless other picture-taking apps are available for the amateur photographer. To you and me, the average Joes, photography is no longer a coveted art form, it is a sport – a cheap way to have fun while basking in the glory of our hyper-filtered Instagram photos.

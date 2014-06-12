@@ -1,8 +1,9 @@
 ---
 title:  "Bootstrap the CSS"
 author: "Luke Goodman"
-categories: blog
 layout: blogpost
+categories: blog
+id: blog
 ---
  
 My best friend’s mother recently asked me to build a website for her small business. She complained that she had wasted so much of her own time teaching herself HTML and CSS so as to avoid using a web builder like Weebly or, as she said, “that one from the Super Bowl with the racy women” (I believe she meant GoDaddy.com). With a whole design drawn up and the HTML and content written, CSS came into play and she “just couldn’t get the things to move where they SHOULD be, where they’re SUPPOSED to be,” vaguely reminding me of the Adam Sandler’s putting struggles in the golf movie Happy Gilmore.

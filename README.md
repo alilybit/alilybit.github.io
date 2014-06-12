@@ -21,4 +21,4 @@ Before attempting to edit general text information, please note the following.
   ### Blog
   The blog is managed by Jekyll's native "blog aware" functionality in the `_posts` directory. Images are stores in `{{ site.url }}/assets/img/blog`
 
-  When creating new posts, you **must** follow the Jekyll convention for naming post files, such as `2014-06-11-example.md`. All posts are written in Markdown with the following front matter: `title, author, categories, layout`.
+  When creating new posts, you **must** follow the Jekyll convention for naming post files, such as `2014-06-11-example.md`. All posts are written in Markdown with the following front matter: `title, author, layout, categories, id`. `layout` must be "blogpost". `categories` and `id` must always be "blog".

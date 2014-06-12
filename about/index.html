@@ -4,6 +4,15 @@ layout: default
 id: about
 ---
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#values").toggleClass("uk-hidden");
+  });
+}); 
+</script>
+
 <div class="lc-section uk-width-4-5 uk-container-center uk-text-center lc-no-overflow">
 	<div class="lc-title">About.</div>
 	<br><br>
@@ -22,7 +31,7 @@ id: about
 		<p class="lc-text-smallcaps"><b>LCL Values</b>
         <button class="uk-icon-button uk-icon-level-down" data-uk-toggle="{target: '#values'}"></button>
             </p>
-        <div id="values">
+        <div id="values" class="uk-hidden">
 			<ul>
 				<li><b>Establishing life-long relationships.</b> When we emptied out our pockets to start Life Changing Labs our focus was not on any potential future return on investment. Our goal has always been to build long-term relationships with talented individuals who we view as our partners, rather than as employees or students. We are big on loyalty, which extends beyond the time spent with us and the startups we work on together. Whether continuing work with LCL, or launching a new venture years down the road, LCL members will find support in our network.</li>
 				<li><b>Learning from experienced entrepreneurs.</b> Entrepreneurs in our network have spent years launching and growing companies. Through their successes and failures, they have a wealth of knowledge to share. We believe there is as much to learn from failure as there is from success, and encourage our associates to leverage those experiences in building their own success stories.</li>

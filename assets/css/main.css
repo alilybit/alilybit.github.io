@@ -512,6 +512,12 @@ body.network .uk-tooltip {
 
 body.network .one-panel {
    padding: 10px;
+}
+
+body.network .one-panel img {
+	display:block;
+	margin:auto;
+}
 
 @media (max-device-width: 767px) {
 	body.network .lc-partners, body.network .lc-name  {

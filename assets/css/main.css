@@ -640,6 +640,46 @@ body.blog .lc-list .lc-list-item .lc-excerpt {
   overflow: hidden;
 }
 
+body.blog button {
+	visibility:collapse;
+}
+
+@media (max-device-width: 767px) {
+	body.blog .lc-list {
+		visibility:collapse;
+	}
+	
+	body.blog .lc-latest, body.blog .lc-latest .article {
+		width:100%;
+		border-right:none;
+	}
+
+	body.blog button{
+		visibility: visible;
+		position:fixed;
+		right:20px;
+		bottom:20px;
+		background-color:#89a826;
+		border-radius:0;
+	}
+	
+	.mobile-archive {
+		position: fixed;
+		right:20px;
+		bottom:45px;
+	}
+		
+	.mobile-item {
+		padding-left: 5px;
+		padding-right:5px;
+	}
+	
+	.uk-dropdown {
+		overflow:scroll; 
+		max-height:230px;
+	}
+}
+
 /* ========================================================================== */
 /* Bootcamp
 /* ========================================================================== */

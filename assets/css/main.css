@@ -371,7 +371,7 @@ body.about .lc-section .lc-img-half-container {
 
 @media (max-device-width: 767px) {
     body.about p{
-        font-size: 10px;
+        font-size: 15px;
     }
     
     .pic-respond{

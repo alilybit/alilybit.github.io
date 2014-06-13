@@ -140,6 +140,10 @@ a:hover {
   margin-left: 2px;
 }
 
+@media #home-icon (max-device-width: 767px) {
+    margin-left: 10px;
+}
+
 .lc-border {
   background: #89a826;
   position: fixed;

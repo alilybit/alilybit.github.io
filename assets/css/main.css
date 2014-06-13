@@ -486,7 +486,6 @@ body.network .lc-position {
   letter-spacing: 1px;
 }
 
-
 body.network .lc-bio {
   font-size: 13px;
   line-height: 19px;
@@ -512,6 +511,7 @@ body.network .uk-tooltip {
 
 body.network .one-panel {
    padding: 10px;
+}
 
 @media (max-device-width: 767px) {
 	body.network .lc-partners, body.network .lc-name  {

@@ -143,6 +143,7 @@ a:hover {
 .lc-border {
   background: #89a826;
   position: fixed;
+  z-index: 1;
 }
 
 .lc-border-left, .lc-border-right {
@@ -179,6 +180,7 @@ a:hover {
   height: 50px;
   background: #3f3f3f;
   margin-top: -1px;
+  z-index: 2;
 }
 
 .lc-banner-logo:hover {
@@ -506,6 +508,10 @@ body.network .uk-tooltip {
   background: #89a826;
   color: #ffffff;
   text-shadow: none;
+}
+
+body.network .one-panel {
+   padding: 10px;
 }
 
 /* ========================================================================== */

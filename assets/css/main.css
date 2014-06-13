@@ -198,9 +198,9 @@ a:hover {
   height: 50px;
   width: 50px;
   color: #3f3f3f;
-  z-index:100;
-  -webkit-transform: translate3d(0,0,100px);
-	transform: translate3d(0,0,100px);
+  z-index:20;
+  -webkit-transform: translate3d(0,0,20px);
+	transform: translate3d(0,0,20px);
 }
 
 .lc-menu-btn a {
@@ -302,6 +302,12 @@ body.home .lc-section .lc-link:hover {
 
 br .uk-width-medium*{
     visibility: collapse;
+}
+
+#modalnav {
+  z-index:100;
+  -webkit-transform: translate3d(0,0,100px);
+  transform: translate3d(0,0,100px);
 }
 
 /*Media queries to alter font size and menu format with screen width*/

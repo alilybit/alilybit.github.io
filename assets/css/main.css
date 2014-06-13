@@ -665,6 +665,7 @@ body.blog button {
 		position: fixed;
 		right:20px;
 		bottom:45px;
+		z-index:5;
 	}
 		
 	.mobile-item {
@@ -675,6 +676,9 @@ body.blog button {
 	.uk-dropdown {
 		overflow:scroll; 
 		max-height:230px;
+		z-index: 5;
+		-webkit-transform: translate3d(0,0,5px);
+		transform: translate3d(0,0,5px);
 	}
 }
 
@@ -707,6 +711,7 @@ body.opportunities .lc-section {
 }
 
 body.opportunities .uk-button {
+  margin-top: 5px;
   margin-right: 10px;
   border-radius: 0px;
 }

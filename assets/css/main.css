@@ -510,7 +510,7 @@ body.network .uk-tooltip {
 
 @media (max-device-width: 767px) {
 
-	body.network .lc-partners  {
+	body.network .lc-partners, body.network .lc-name  {
 		width:50%;
 	}
 }

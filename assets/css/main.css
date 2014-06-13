@@ -180,7 +180,7 @@ a:hover {
 .lc-banner-logo {
   position: fixed;
   top: 0px;
-  width: 220px;
+  width: 200px;
   height: 40px;
   background: #3f3f3f;
   margin-top: -1px;
@@ -373,16 +373,6 @@ body.about .lc-section .lc-img-half-container {
     visibility: collapse;
 }
 
-@media (max-device-width: 767px) {
-    body.about p{
-        font-size: 15px;
-    }
-    
-    .pic-respond{
-        visibility: visible;
-    }
-}
-
 body.about .left {
     float: left;
     padding: 10px;
@@ -395,6 +385,28 @@ body.about .right {
 
 body.about .single {
     padding: 10px;
+}
+
+@media (max-device-width: 767px) {
+    body.about p{
+        font-size: 15px;
+    }
+    
+    .pic-respond{
+        visibility: visible;
+    }
+	
+	body.about .left {
+		padding-right: 3px;
+	}	
+
+	body.about .right {
+		padding-left: 3px;
+	}
+	
+	body.about .single {
+		padding:5px 0 3px 0;
+	}
 }
 
 /* ========================================================================== */

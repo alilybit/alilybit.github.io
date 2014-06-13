@@ -513,6 +513,10 @@ body.network .one-panel {
    padding: 10px;
 }
 
+body.network .one-panel img {
+	display:block;
+}
+
 @media (max-device-width: 767px) {
 	body.network .lc-partners, body.network .lc-name  {
 		width:50%;

@@ -198,6 +198,9 @@ a:hover {
   height: 50px;
   width: 50px;
   color: #3f3f3f;
+  z-index:100;
+  -webkit-transform: translate3d(0,0,100px);
+	transform: translate3d(0,0,100px);
 }
 
 .lc-menu-btn a {
@@ -652,6 +655,12 @@ body.blog .lc-list .lc-list-item .lc-title {
 body.blog .lc-list .lc-list-item .lc-excerpt {
   line-height: 17px;
   overflow: hidden;
+}
+
+body.blog img {
+	z-index: 0;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
 }
 
 body.blog button {

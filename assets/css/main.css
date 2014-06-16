@@ -677,7 +677,7 @@ body.blog button {
 		visibility:collapse;
 	}
 	
-	body.blog .lc-latest, body.blog .lc-latest .article {
+	body.blog .lc-post, body.blog .lc-post .article {
 		width:100%;
 		border-right:none;
 	}

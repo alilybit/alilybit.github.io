@@ -576,13 +576,13 @@ body.blog .lc-latest .lc-title {
   text-transform: capitalize;
 }
 
-/*body.blog .lc-post .lc-bio {
+body.blog .lc-latest .lc-bio {
   margin-top: 75px;
   border-top: 1px solid #89a826;
   padding-top: 20px;
   font-size: 14px;
   line-height: 17px;
-}*/
+}
 
 body.blog .lc-post a {
   color: #444444;

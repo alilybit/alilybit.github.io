@@ -359,6 +359,7 @@ br .uk-width-medium*{
 body.home .lc-menu-btn {
   background: none;
   color: #ffffff;
+  font-weight: normal;
 }
 
 body.home .lc-border {

@@ -13,22 +13,16 @@ id: network
 		<p class="uk-width-4-5">We are focused on quality of engagement with only the top guests rather than having an excessive number of advisors who add little value.</p>
 	</div>
 	<br><br> 
-    <div class="uk-grid uk-float-right" style="z-index:-1;">
-		{% for guest in site.data.guests %}
-		<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-text-left one-panel">
-			<div class="uk-panel uk-panel-box" style="height: 810px">
-				<div class="uk-panel-teaser">
-					<img src="{{ site.url }}/assets/img/{{ guest.img }}"></img>
-				</div>
-				<br><br>
-				<div class="lc-name">{{ guest.name }}</div>
-				<div class="lc-position">{{ guest.position }}</div>
-				<br>
-				<div class="lc-bio uk-width-9-10">{{ guest.bio }}</div>
-			</div>
+  {% for guest in site.data.guests %}
+		<div class="uk-width-large-1-4 uk-width-medium-1-4 uk-width-1-1 uk-float-left uk-text-left">
+			<img class="uk-width-2-3" src="{{ site.url }}/assets/img/{{ guest.img }}">
+			<br><br>
+			<div class="lc-name">{{ guest.name }}</div>
+			<div class="lc-position">{{ guest.position }}</div>
+			<br>
+			<div class="lc-bio uk-width-9-10">{{ guest.bio }}</div>
 		</div>
-		{% endfor %}
-	</div>    
+	{% endfor %}
 </div>
 <hr class="uk-width-4-5 uk-container-center">
 <div class="lc-section-2 uk-width-4-5 uk-container-center uk-text-center lc-no-overflow">

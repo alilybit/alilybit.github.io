@@ -511,6 +511,10 @@ body.network .lc-section-1 {
   padding: 175px 0 50px;
 }
 
+body.network .lc-section-1 .lc-guests {
+  padding-bottom: 50px;
+}
+
 body.network .lc-section-2 {
   padding-bottom: 50px;
 }
@@ -567,19 +571,11 @@ body.network .uk-tooltip {
   text-shadow: none;
 }
 
-body.network .one-panel {
-   padding: 10px;
-}
-
-body.network .one-panel img {
-	display:block;
-}
-
-@media (max-device-width: 767px) {
+/*@media (max-device-width: 767px) {
 	body.network .lc-partners, body.network .lc-name  {
 		width:50%;
 	}
-}
+}*/
 
 /* ========================================================================== */
 /* Blog

@@ -269,7 +269,7 @@ br .uk-width-medium*{
 /*Media queries to alter font size and menu format with screen width*/
 @media only screen and (max-width: 767px){
   #mobile-head, .modalbutton {
-    visibility: collapse;
+    visibility: none;
   }
   #slogan{
       font-size: 15px;
@@ -356,15 +356,31 @@ body.home .lc-section .lc-link:hover {
 /* About
 /* ========================================================================== */
 
-@media (max-device-width: 959x){
+@media (max-device-width: 959px){
   #slogan{
     font-size: 27px;
+  }
+  #values {
+    display: none;
   }
 }
 
 body.about .lc-section {
   padding: 175px 0;
 }
+
+/*body.about button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+body.about button:hover,
+body.about button:active {
+  border: none;
+  outline: none;
+  background: none;
+}*/
 
 body.about .lc-section .lc-img-container {
   background: #111111;
@@ -395,7 +411,6 @@ body.about .single {
   body.about p{
       font-size: 15px;
   }
-  
   .pic-respond{
       visibility: visible;
   }

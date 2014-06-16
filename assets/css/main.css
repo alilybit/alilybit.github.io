@@ -112,18 +112,16 @@ a:hover {
 }
 
 @media screen{
-    .uk-offcanvas-bar .lc-contact img {
-      width: 30px;
-      opacity: 0.25;
-    }
+  .uk-offcanvas-bar .lc-contact img {
+    width: 30px;
+    opacity: 0.25;
+  }
 }
 
 @media handheld {
-
 	.uk-offcanvas-bar .lc-contact img:hover {
 	  opacity: 0.35;
 	}
-
 }
 
 .uk-offcanvas-bar .lc-contact a {
@@ -141,7 +139,7 @@ a:hover {
 }
 
 @media #home-icon (max-device-width: 767px) {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .lc-border {
@@ -247,6 +245,61 @@ a:hover {
   background: url('../img/loading.gif') 50% 50% no-repeat #fff;
 }
 
+#slogan{
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+#strongtext{
+    color: #3F3F3F;
+}
+
+br .uk-width-medium*{
+    visibility: collapse;
+}
+
+#modalnav {
+  z-index:100;
+  -webkit-transform: translate3d(0,0,100px);
+  transform: translate3d(0,0,100px);
+}
+
+/*Media queries to alter font size and menu format with screen width*/
+@media only screen and (max-width: 767px){
+  #mobile-head, .modalbutton {
+    visibility: collapse;
+  }
+  #slogan{
+      font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 959px){
+  #slogan{
+      font-size: 27px;
+  }
+}
+
+@media (max-device-width: 767px){
+  #non-mobile-head, .offcanvasbutton {
+    visibility:collapse;
+  }
+  #mobile-head, .modalbutton {
+    visibility: visible;
+  }
+  #slogan{
+    font-size: 17px;
+  }
+}
+
+@media (min-device-width: 768px){
+    #mobile-head, .modalbutton {
+    visibility: collapse;
+  }
+}
+
 /* ========================================================================== */
 /* Home
 /* ========================================================================== */
@@ -302,73 +355,11 @@ body.home .lc-section .lc-link:hover {
 /* ========================================================================== */
 /* About
 /* ========================================================================== */
-#slogan{
-    font-size: 32px;
-    color: white;
-    font-weight: bold;
-    line-height: 1.1;
-}
-
-#strongtext{
-    color: #3F3F3F;
-}
-
-br .uk-width-medium*{
-    visibility: collapse;
-}
-
-#modalnav {
-  z-index:100;
-  -webkit-transform: translate3d(0,0,100px);
-  transform: translate3d(0,0,100px);
-}
-
-/*Media queries to alter font size and menu format with screen width*/
-@media only screen and (max-width: 767px){
-	
-	#mobile-head, .modalbutton {
-		visibility: collapse;
-	}
-	
-    #slogan{
-        font-size: 15px;
-    }
-}
-
-@media only screen and (max-width: 959px){
-    #slogan{
-        font-size: 27px;
-    }
-	
-}
-
-
-@media (max-device-width: 767px){
-	#non-mobile-head, .offcanvasbutton {
-		visibility:collapse;
-	}
-	
-	#mobile-head, .modalbutton {
-		visibility: visible;
-	}
-	
-	#slogan{
-        font-size: 17px;
-    }
-}
-
-@media (min-device-width: 768px){
-    #mobile-head, .modalbutton {
-		visibility: collapse;
-	}
-}
 
 @media (max-device-width: 959x){
-	
-    #slogan{
-        font-size: 27px;
-    }
-	
+  #slogan{
+    font-size: 27px;
+  }
 }
 
 body.about .lc-section {
@@ -387,27 +378,27 @@ body.about .lc-section .lc-img-half-container {
 }
 
 body.about .left {
-    float: left;
-    padding: 10px;
+  float: left;
+  padding: 10px;
 }
 
 body.about .right {
-    float: right;
-    padding: 10px;
+  float: right;
+  padding: 10px;
 }
 
 body.about .single {
-    padding: 10px;
+  padding: 10px;
 }
 
 @media (max-device-width: 767px) {
-    body.about p{
-        font-size: 15px;
-    }
-    
-    .pic-respond{
-        visibility: visible;
-    }
+  body.about p{
+      font-size: 15px;
+  }
+  
+  .pic-respond{
+      visibility: visible;
+  }
 	
 	body.about .left, body.about .right, body.about .single {
 		padding: 5px 0 3px 0;

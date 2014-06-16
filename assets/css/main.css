@@ -290,6 +290,12 @@ br .uk-width-medium*{
   body {
     font-size: 15px;
   }
+
+  .lc-menu-btn {
+    top: 7px;
+    right: 7px;
+  }
+
   #non-mobile-head, .offcanvasbutton {
     visibility: collapse;
   }

@@ -195,6 +195,7 @@ a:hover {
   top: 27px;
   height: 50px;
   width: 50px;
+  background: #fff;
   color: #3f3f3f;
   z-index:20;
   -webkit-transform: translate3d(0,0,20px);
@@ -315,6 +316,7 @@ body.home {
 }
 
 body.home .lc-menu-btn {
+  background: none;
   color: #ffffff;
 }
 

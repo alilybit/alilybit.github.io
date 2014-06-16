@@ -577,21 +577,21 @@ body.blog a:hover {
   text-decoration: none;
 }
 
-body.blog .lc-latest {
+body.blog .lc-post {
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   border-right: 1px solid #777777;
   padding: 125px 0;
 }
 
-body.blog .lc-latest .lc-title {
+body.blog .lc-post .lc-title {
   font-size: 35px;
   line-height: 40px;
   font-weight: 900;
   text-transform: capitalize;
 }
 
-body.blog .lc-latest .lc-bio {
+body.blog .lc-post .lc-bio {
   margin-top: 75px;
   border-top: 1px solid #89a826;
   padding-top: 20px;

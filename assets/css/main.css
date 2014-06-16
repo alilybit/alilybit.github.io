@@ -175,6 +175,18 @@ a:hover {
   bottom: 0;
 }
 
+@media only screen and (max-width: 767px){
+  .lc-border-bottom,
+  .lc-border-top {
+    height: 7px;
+  }
+
+  .lc-border-left,
+  .lc-border-right {
+    width: 7px;
+  }
+}
+
 .lc-banner-logo {
   position: fixed;
   top: 0px;
@@ -267,7 +279,6 @@ br .uk-width-medium*{
   transform: translate3d(0,0,100px);
 }
 
-/*Media queries to alter font size and menu format with screen width*/
 @media only screen and (max-width: 767px){
   #mobile-head, .modalbutton {
     visibility: none;
@@ -284,6 +295,9 @@ br .uk-width-medium*{
 }
 
 @media (max-device-width: 767px){
+  body {
+    font-size: 15px;
+  }
   #non-mobile-head, .offcanvasbutton {
     visibility:collapse;
   }
@@ -392,10 +406,6 @@ body.about .lc-section .lc-img-half-container {
 }
 
 @media (max-device-width: 767px) {
-  body.about {
-    font-size: 15px;
-  }
-
   .pic-respond{
       visibility: visible;
   }
@@ -446,7 +456,7 @@ body.companies .lc-section .lc-list {
 
 @media (min-device-width: 767px) {
 	body.companies .lc-section .lc-list .lc-list-img {
-	  border-right: 2px solid #aaaaaa;
+	  border-right: 1px solid #aaaaaa;
 	}
 }
 
@@ -639,7 +649,7 @@ body.blog .lc-post blockquote {
 body.blog .lc-list {
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
-  padding: 125px 0 50px;
+  padding: 40px 0 50px;
   color: #777777;
 }
 
@@ -677,7 +687,7 @@ body.blog button {
 		visibility:collapse;
 	}
 	
-	body.blog .lc-latest, body.blog .lc-latest .article {
+	body.blog .lc-post, body.blog .lc-post .article {
 		width:100%;
 		border-right:none;
 	}

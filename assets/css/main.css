@@ -571,27 +571,27 @@ body.blog a:hover {
   text-decoration: none;
 }
 
-body.blog .lc-post {
+body.blog .lc-latest {
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   border-right: 1px solid #777777;
-  padding: 100px 0;
+  padding: 125px 0;
 }
 
-body.blog .lc-post .lc-title {
+body.blog .lc-latest .lc-title {
   font-size: 35px;
   line-height: 40px;
   font-weight: 900;
   text-transform: capitalize;
 }
 
-body.blog .lc-post .lc-bio {
+/*body.blog .lc-post .lc-bio {
   margin-top: 75px;
   border-top: 1px solid #89a826;
   padding-top: 20px;
   font-size: 14px;
   line-height: 17px;
-}
+}*/
 
 body.blog .lc-post a {
   color: #444444;

@@ -201,47 +201,6 @@ a:hover {
   margin-top: 0px;
 }
 
-.lc-menu-btn {
-  position: fixed;
-  right: 30px;
-  top: 27px;
-  height: 50px;
-  width: 50px;
-  background: #fff;
-  color: #3f3f3f;
-  z-index:20;
-  -webkit-transform: translate3d(0,0,20px);
-	transform: translate3d(0,0,20px);
-}
-
-.lc-menu-btn a {
-  color: #ffffff;
-}
-
-.lc-menu-btn i {
-  font-size: 20px;
-}
-
-.lc-title {
-  font-size: 24px;
-  font-weight: 700;
-}
-
-#slogan{
-  font-size: 32px;
-  color: white;
-  font-weight: bold;
-  line-height: 1.1;
-}
-
-#strongtext{
-  color: #3F3F3F;
-}
-
-br .uk-width-medium*{
-  visibility: collapse;
-}
-
 #modalnav {
   z-index:100;
   -webkit-transform: translate3d(0,0,100px);
@@ -268,21 +227,9 @@ br .uk-width-medium*{
   text-transform: uppercase;
 }
 
-.uk-modal-dialog
-
 @media only screen and (max-width: 767px){
   #mobile-head, .modalbutton {
     visibility: none;
-  }
-
-  #slogan{
-      font-size: 15px;
-  }
-}
-
-@media only screen and (max-width: 959px){
-  #slogan{
-      font-size: 27px;
   }
 }
 
@@ -303,14 +250,10 @@ br .uk-width-medium*{
   #mobile-head, .modalbutton {
     visibility: visible;
   }
-
-  #slogan{
-    font-size: 17px;
-  }
 }
 
-@media (min-device-width: 768px){
-    #mobile-head, .modalbutton {
+@media (min-device-width: 767px){
+  #mobile-head, .modalbutton {
     visibility: collapse;
   }
 }
@@ -360,10 +303,57 @@ body.home {
   z-index: -2;
 }
 
+.lc-menu-btn {
+  position: fixed;
+  right: 30px;
+  top: 27px;
+  height: 50px;
+  width: 50px;
+  background: #fff;
+  color: #3f3f3f;
+  z-index:20;
+  -webkit-transform: translate3d(0,0,20px);
+  transform: translate3d(0,0,20px);
+}
+
+.lc-menu-btn a {
+  color: #ffffff;
+}
+
+.lc-menu-btn i {
+  font-size: 20px;
+}
+
+.lc-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#slogan{
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
 @media (max-device-width: 959px){
-  body.home #slogan{
+  #slogan{
     font-size: 27px;
   }
+}
+
+@media (max-device-width: 767px){
+  #slogan{
+    font-size: 19px;
+  }
+}
+
+#strongtext{
+  color: #3f3f3f;
+}
+
+br .uk-width-medium*{
+  visibility: collapse;
 }
 
 body.home .lc-menu-btn {

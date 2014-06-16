@@ -507,6 +507,10 @@ body.companies .lc-section .lc-list .lc-list-detail a {
 /* Network
 /* ========================================================================== */
 
+body.network {
+  hyphens: none;
+}
+
 body.network .lc-section-1 {
   padding: 175px 0 50px;
 }

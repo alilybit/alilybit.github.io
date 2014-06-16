@@ -315,6 +315,12 @@ body.home {
   z-index: -2;
 }
 
+@media (max-device-width: 959px){
+  body.home #slogan{
+    font-size: 27px;
+  }
+}
+
 body.home .lc-menu-btn {
   background: none;
   color: #ffffff;
@@ -358,15 +364,6 @@ body.home .lc-section .lc-link:hover {
 /* About
 /* ========================================================================== */
 
-@media (max-device-width: 959px){
-  #slogan{
-    font-size: 27px;
-  }
-  #values {
-    display: none;
-  }
-}
-
 body.about .lc-section {
   padding: 175px 0;
 }
@@ -387,7 +384,6 @@ body.about button:active {
 body.about .lc-section .lc-img-container {
   background: #111111;
   padding: 3% 0;
-  /*margin-top: 75px;*/
 }
 
 body.about .lc-section .lc-img-half-container {
@@ -395,33 +391,27 @@ body.about .lc-section .lc-img-half-container {
   margin: 10px 0;
 }
 
-body.about .left {
-  float: left;
-  padding: 10px;
-}
-
-body.about .right {
-  float: right;
-  padding: 10px;
-}
-
-body.about .single {
-  padding: 10px;
-}
-
 @media (max-device-width: 767px) {
-  body.about p{
-      font-size: 15px;
+  body.about {
+    font-size: 15px;
   }
+
   .pic-respond{
       visibility: visible;
   }
-	
-	body.about .left, body.about .right, body.about .single {
-		padding: 5px 0 3px 0;
-		width: 100%;
-		float:none;
-	}	
+
+  body.about .lc-section .lc-img-container {
+    padding: 1% 0;
+  }
+
+  body.about .lc-section .lc-img-half-container {
+    height: auto;
+    margin: 0;
+  }
+
+  body.about .lc-footer-line {
+    margin-top: 0;
+  }
 }
 
 /* ========================================================================== */

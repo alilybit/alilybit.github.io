@@ -248,6 +248,10 @@ br .uk-width-medium*{
   transform: translate3d(0,0,100px);
 }
 
+.uk-modal {
+  background: none;
+}
+
 .uk-modal-dialog {
   position: fixed;
   top: 0;

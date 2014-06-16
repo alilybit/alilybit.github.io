@@ -378,10 +378,6 @@ body.about .lc-section .lc-img-half-container {
   margin: 10px 0;
 }
 
-.pic-respond{
-    visibility: collapse;
-}
-
 body.about .left {
     float: left;
     padding: 10px;
@@ -405,17 +401,11 @@ body.about .single {
         visibility: visible;
     }
 	
-	body.about .left {
-		padding-right: 3px;
+	body.about .left, body.about .right, body.about .single {
+		padding: 5px 0 3px 0;
+		width: 100%;
+		float:none;
 	}	
-
-	body.about .right {
-		padding-left: 3px;
-	}
-	
-	body.about .single {
-		padding:5px 0 3px 0;
-	}
 }
 
 /* ========================================================================== */
@@ -448,8 +438,10 @@ body.companies .lc-section .lc-list {
   margin: 25px auto 10px;
 }
 
-body.companies .lc-section .lc-list .lc-list-img {
-  border-right: 2px solid #aaaaaa;
+@media (min-device-width: 767px) {
+	body.companies .lc-section .lc-list .lc-list-img {
+	  border-right: 2px solid #aaaaaa;
+	}
 }
 
 body.companies .lc-section .lc-list .lc-list-detail {

@@ -111,13 +111,19 @@ a:hover {
   color: #444444;
 }
 
-.uk-offcanvas-bar .lc-contact img {
-  width: 30px;
-  opacity: 0.25;
+@media screen{
+    .uk-offcanvas-bar .lc-contact img {
+      width: 30px;
+      opacity: 0.25;
+    }
 }
 
-.uk-offcanvas-bar .lc-contact img:hover {
-  opacity: 0.35;
+@media handheld {
+
+	.uk-offcanvas-bar .lc-contact img:hover {
+	  opacity: 0.35;
+	}
+
 }
 
 .uk-offcanvas-bar .lc-contact a {
@@ -134,9 +140,14 @@ a:hover {
   margin-left: 2px;
 }
 
+@media #home-icon (max-device-width: 767px) {
+    margin-left: 10px;
+}
+
 .lc-border {
   background: #89a826;
   position: fixed;
+  z-index: 1;
 }
 
 .lc-border-left, .lc-border-right {
@@ -169,10 +180,11 @@ a:hover {
 .lc-banner-logo {
   position: fixed;
   top: 0px;
-  width: 225px;
-  height: 50px;
+  width: 200px;
+  height: 40px;
   background: #3f3f3f;
   margin-top: -1px;
+  z-index: 2;
 }
 
 .lc-banner-logo:hover {
@@ -186,6 +198,9 @@ a:hover {
   height: 50px;
   width: 50px;
   color: #3f3f3f;
+  z-index:20;
+  -webkit-transform: translate3d(0,0,20px);
+	transform: translate3d(0,0,20px);
 }
 
 .lc-menu-btn a {
@@ -287,6 +302,74 @@ body.home .lc-section .lc-link:hover {
 /* ========================================================================== */
 /* About
 /* ========================================================================== */
+#slogan{
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+#strongtext{
+    color: #3F3F3F;
+}
+
+br .uk-width-medium*{
+    visibility: collapse;
+}
+
+#modalnav {
+  z-index:100;
+  -webkit-transform: translate3d(0,0,100px);
+  transform: translate3d(0,0,100px);
+}
+
+/*Media queries to alter font size and menu format with screen width*/
+@media only screen and (max-width: 767px){
+	
+	#mobile-head, .modalbutton {
+		visibility: collapse;
+	}
+	
+    #slogan{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 959px){
+    #slogan{
+        font-size: 27px;
+    }
+	
+}
+
+
+@media (max-device-width: 767px){
+	#non-mobile-head, .offcanvasbutton {
+		visibility:collapse;
+	}
+	
+	#mobile-head, .modalbutton {
+		visibility: visible;
+	}
+	
+	#slogan{
+        font-size: 17px;
+    }
+}
+
+@media (min-device-width: 768px){
+    #mobile-head, .modalbutton {
+		visibility: collapse;
+	}
+}
+
+@media (max-device-width: 959x){
+	
+    #slogan{
+        font-size: 27px;
+    }
+	
+}
 
 body.about .lc-section {
   padding: 175px 0;
@@ -301,6 +384,36 @@ body.about .lc-section .lc-img-container {
 body.about .lc-section .lc-img-half-container {
   height: 325px;
   margin: 10px 0;
+}
+
+body.about .left {
+    float: left;
+    padding: 10px;
+}
+
+body.about .right {
+    float: right;
+    padding: 10px;
+}
+
+body.about .single {
+    padding: 10px;
+}
+
+@media (max-device-width: 767px) {
+    body.about p{
+        font-size: 15px;
+    }
+    
+    .pic-respond{
+        visibility: visible;
+    }
+	
+	body.about .left, body.about .right, body.about .single {
+		padding: 5px 0 3px 0;
+		width: 100%;
+		float:none;
+	}	
 }
 
 /* ========================================================================== */
@@ -333,8 +446,10 @@ body.companies .lc-section .lc-list {
   margin: 25px auto 10px;
 }
 
-body.companies .lc-section .lc-list .lc-list-img {
-  border-right: 2px solid #aaaaaa;
+@media (min-device-width: 767px) {
+	body.companies .lc-section .lc-list .lc-list-img {
+	  border-right: 2px solid #aaaaaa;
+	}
 }
 
 body.companies .lc-section .lc-list .lc-list-detail {
@@ -352,6 +467,8 @@ body.companies .lc-section .lc-list .lc-list-detail .lc-category {
 body.companies .lc-section .lc-list .lc-list-detail a {
   color: #89a826;
 }
+
+
 
 /* ========================================================================== */
 /* Network
@@ -394,7 +511,6 @@ body.network .lc-position {
   letter-spacing: 1px;
 }
 
-
 body.network .lc-bio {
   font-size: 13px;
   line-height: 19px;
@@ -416,6 +532,20 @@ body.network .uk-tooltip {
   background: #89a826;
   color: #ffffff;
   text-shadow: none;
+}
+
+body.network .one-panel {
+   padding: 10px;
+}
+
+body.network .one-panel img {
+	display:block;
+}
+
+@media (max-device-width: 767px) {
+	body.network .lc-partners, body.network .lc-name  {
+		width:50%;
+	}
 }
 
 /* ========================================================================== */
@@ -534,6 +664,56 @@ body.blog .lc-list .lc-list-item .lc-excerpt {
   overflow: hidden;
 }
 
+body.blog img {
+	z-index: 0;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+body.blog button {
+	visibility:collapse;
+}
+
+@media (max-device-width: 767px) {
+	body.blog .lc-list {
+		visibility:collapse;
+	}
+	
+	body.blog .lc-latest, body.blog .lc-latest .article {
+		width:100%;
+		border-right:none;
+	}
+
+	body.blog button{
+		visibility: visible;
+		position:fixed;
+		right:20px;
+		bottom:20px;
+		background-color:#89a826;
+		border-radius:0;
+	}
+	
+	.mobile-archive {
+		position: fixed;
+		right:20px;
+		bottom:45px;
+		z-index:5;
+	}
+		
+	.mobile-item {
+		padding-left: 5px;
+		padding-right:5px;
+	}
+	
+	.uk-dropdown {
+		overflow:scroll; 
+		max-height:230px;
+		z-index: 5;
+		-webkit-transform: translate3d(0,0,5px);
+		transform: translate3d(0,0,5px);
+	}
+}
+
 /* ========================================================================== */
 /* Bootcamp
 /* ========================================================================== */
@@ -563,6 +743,7 @@ body.opportunities .lc-section {
 }
 
 body.opportunities .uk-button {
+  margin-top: 5px;
   margin-right: 10px;
   border-radius: 0px;
 }

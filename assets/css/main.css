@@ -227,6 +227,84 @@ a:hover {
   font-weight: 700;
 }
 
+#slogan{
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+#strongtext{
+  color: #3F3F3F;
+}
+
+br .uk-width-medium*{
+  visibility: collapse;
+}
+
+#modalnav {
+  z-index:100;
+  -webkit-transform: translate3d(0,0,100px);
+  transform: translate3d(0,0,100px);
+}
+
+.uk-modal-dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #111;
+  border-radius: 0;
+}
+
+.uk-modal-dialog .uk-button {
+  min-height: 35px;
+  background: none;
+  color: #eee;
+  text-transform: uppercase;
+}
+
+.uk-modal-dialog
+
+@media only screen and (max-width: 767px){
+  #mobile-head, .modalbutton {
+    visibility: none;
+  }
+
+  #slogan{
+      font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 959px){
+  #slogan{
+      font-size: 27px;
+  }
+}
+
+@media (max-device-width: 767px){
+  body {
+    font-size: 15px;
+  }
+  #non-mobile-head, .offcanvasbutton {
+    visibility: collapse;
+  }
+
+  #mobile-head, .modalbutton {
+    visibility: visible;
+  }
+
+  #slogan{
+    font-size: 17px;
+  }
+}
+
+@media (min-device-width: 768px){
+    #mobile-head, .modalbutton {
+    visibility: collapse;
+  }
+}
+
 .lc-footer-line {
   margin-top: 50px;
 }
@@ -256,63 +334,6 @@ a:hover {
   height: 100%;
   z-index: 9999;
   background: url('../img/loading.gif') 50% 50% no-repeat #fff;
-}
-
-#slogan{
-    font-size: 32px;
-    color: white;
-    font-weight: bold;
-    line-height: 1.1;
-}
-
-#strongtext{
-    color: #3F3F3F;
-}
-
-br .uk-width-medium*{
-    visibility: collapse;
-}
-
-#modalnav {
-  z-index:100;
-  -webkit-transform: translate3d(0,0,100px);
-  transform: translate3d(0,0,100px);
-}
-
-@media only screen and (max-width: 767px){
-  #mobile-head, .modalbutton {
-    visibility: none;
-  }
-  #slogan{
-      font-size: 15px;
-  }
-}
-
-@media only screen and (max-width: 959px){
-  #slogan{
-      font-size: 27px;
-  }
-}
-
-@media (max-device-width: 767px){
-  body {
-    font-size: 15px;
-  }
-  #non-mobile-head, .offcanvasbutton {
-    visibility:collapse;
-  }
-  #mobile-head, .modalbutton {
-    visibility: visible;
-  }
-  #slogan{
-    font-size: 17px;
-  }
-}
-
-@media (min-device-width: 768px){
-    #mobile-head, .modalbutton {
-    visibility: collapse;
-  }
 }
 
 /* ========================================================================== */

@@ -57,9 +57,9 @@ id: network
 		<div class="lc-text-medium lc-text-bold lc-text-smallcaps lc-text-mute">Members</div>
 	</div>
 	<br><br>
-	<div class="lc-members-list">
+	<div class="lc-members-list uk-width-1-1">
 		{% for member in site.data.members %}
-		<div class="lc-name uk-width-large-4-5 uk-width-medium-4-5 uk-width-1-2 uk-float-left uk-text-left" data-uk-tooltip="{pos:'top-left'}" title="{{ member.company }}">{{ member.name }}</div>
+		<div class="lc-name uk-width-large-1-5 uk-width-medium-1-5 uk-width-1-2 uk-float-left uk-text-left" data-uk-tooltip="{pos:'top-left'}" title="{{ member.company }}">{{ member.name }}</div>
 		{% endfor %}
 	</div>
 	{% include footer.html %}

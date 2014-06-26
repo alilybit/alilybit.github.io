@@ -560,6 +560,10 @@ body.network .lc-partners {
   word-wrap: break-word;
 }
 
+body.network .lc-members-list {
+  overflow: hidden;
+}
+
 body.network .lc-members-list div {
   line-height: 30px;
   cursor: default;

@@ -32,7 +32,16 @@ id: companies
 	</div>
 	<div class="lc-row uk-width-1-1 uk-container-center">
 		{% for company in site.data.companies %}
-		<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-1-2 uk-float-left"><a href="http://{{ company.website }}" target="_blank" alt="{{ company.company }}"><img class="uk-width-2-3" src="{{ site.url }}/assets/img/{{ company.img }}"></a></div>
+		<div class="uk-width-large-1-4 uk-width-medium-1-2 uk-width-1-2 uk-float-left">
+			{% for site in company.website %}
+				{% if site == 'none' %}
+					<img class="uk-width-2-3" src="{{ site.url }}/assets/img/{{ company.img }}">
+					{% else %}
+					<a href="http://{{ site }}" target="_blank" alt="{{ company.company }}"><img class="uk-width-2-3" src="{{ site.url }}/assets/img/{{ company.img }}"></a>
+					{% break %}
+				{% endif %}
+			{% endfor %}
+		</div>
 		{% endfor %}
 	</div>
 	{% for company in site.data.companies %}

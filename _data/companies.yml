@@ -25,7 +25,7 @@
   description: 'Fiberspark is a new kind of Internet Service Provider that puts the customer first. We provide connectivity up to 50x faster than current ISPs that never slows down or cuts out and invest in customer care, making sure that every interaction is handled by a team member that is knowledgeable and empowered to help.'
 - company: Saund
   team: 'Kelsey Kruse, Vitchyr Pong, Max Weisbrod, Andrew Bryan, Sue-Jean Sung'
-  website: []
+  website: [ none ]
   img: saund.png
   description: 'saund makes headphones that can be controlled with the mind. Just by thinking, the user can play, pause, adjust volume, and skip a song. We are a hardware/wear- able technology startup using Brain Computer Interface (BCI) technology.'
 - company: Speare
@@ -40,7 +40,7 @@
   description: 'StartupBook curates the most relevant startup news and advice from top publica- tions and blogs of the most prominent VCs. Just one year into launch, StartupBook is frequently read and referenced by entrepreneurs from over 122 countries.'
 - company: The Exhibition
   team: 'Suchan Lee, Amy Lee, Vinay Ramprasad'
-  website: []
+  website: [ none ]
   img: exhibition.png
   description: 'The Exhibition connects people to local galleries by bringing exhibitions to the cloud. For galleries, it is the easiest way to showcase pieces for an upcoming exhibi- tion or archive past works to create more exposure and increase its audience. Our intuitive interface gives galleries full control to upload/edit/share content for any of their exhibitions. For community members, we enhance the experience of visiting galleries by simplifying the discovery process and providing context surrounding each artwork. This makes the art world approachable and more enjoyable for both new and old art enthusiasts.'
 - company: Thinkplay

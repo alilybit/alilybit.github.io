@@ -43,8 +43,12 @@ id: companies
 				<span class="lc-category">Company: </span>{{ company.company }}<br>
 				<span class="lc-category">Team: </span>{{ company.team }}<br>
 				<span class="lc-category">Website: </span>{% for site in company.website %}
+				{% if site == 'none' %}
+				Coming soon
+				{% else %}
 				{% if forloop.index > 1 %}, {% endif %}
 				<a href="http://{{ site }}" target="_blank">{{ site }}</a>
+				{% endif %}
 				{% endfor %}
 				<br><br>
 				{{ company.description }}

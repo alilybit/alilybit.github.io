@@ -1,5 +1,5 @@
 ---
-title:  Summer Associate Bios
+title: 2014 Summer Associate Bios
 author: Anqi Guo
 layout: blogpost
 categories: blog
